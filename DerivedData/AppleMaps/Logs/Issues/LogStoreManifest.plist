@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>24E850A8-F317-4580-8CCD-984770C6CF55</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
+			<key>fileName</key>
+			<string>24E850A8-F317-4580-8CCD-984770C6CF55.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>KeychainSwift-fjirnoawrmmkwafcsyieolakktzx</string>
+			<key>timeStartedRecording</key>
+			<real>686154171.05822599</real>
+			<key>timeStoppedRecording</key>
+			<real>686154171.582111</real>
+			<key>title</key>
+			<string>Build target KeychainSwift</string>
+			<key>uniqueIdentifier</key>
+			<string>24E850A8-F317-4580-8CCD-984770C6CF55</string>
+		</dict>
+		<key>FD3FA23E-FA3D-46A7-84B0-1907E545C9B3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>FD3FA23E-FA3D-46A7-84B0-1907E545C9B3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>AppleMaps-gogsonacnzfrjtagbbxejsqpqkht</string>
+			<key>timeStartedRecording</key>
+			<real>686161384.82343996</real>
+			<key>timeStoppedRecording</key>
+			<real>686161385.42803395</real>
+			<key>title</key>
+			<string>Build target AppleMaps</string>
+			<key>uniqueIdentifier</key>
+			<string>FD3FA23E-FA3D-46A7-84B0-1907E545C9B3</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

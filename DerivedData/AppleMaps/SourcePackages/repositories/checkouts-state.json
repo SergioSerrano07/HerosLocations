@@ -1,0 +1,11 @@
+{
+  "object" : {
+    "repositories" : {
+      "http://github.com/evgenyneu/keychain-swift" : {
+        "repositoryURL" : "http://github.com/evgenyneu/keychain-swift",
+        "subpath" : "keychain-swift-4905c7d1"
+      }
+    }
+  },
+  "version" : 1
+}

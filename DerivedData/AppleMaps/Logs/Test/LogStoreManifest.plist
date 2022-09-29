@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>C455C864-49FF-4D27-8DF8-4D13F1FC3D53</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>84A315E5-2D90-43B2-BBAC-9ED98D354BD8</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Test-AppleMaps-2022.09.25_15-49-04-+0200.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppleMaps project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppleMaps</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Test AppleMaps</string>
+			<key>timeStartedRecording</key>
+			<real>685806544.30513406</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Test AppleMaps</string>
+			<key>uniqueIdentifier</key>
+			<string>C455C864-49FF-4D27-8DF8-4D13F1FC3D53</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

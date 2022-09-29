@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "keychain-swift",
+          "kind" : "remoteSourceControl",
+          "location" : "http://github.com/evgenyneu/keychain-swift",
+          "name" : "KeychainSwift"
+        },
+        "state" : {
+          "checkoutState" : {
+            "branch" : "master",
+            "revision" : "32a99b537d1c6f3529a08257c28a5feb70c0c5af"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "keychain-swift"
+      }
+    ]
+  },
+  "version" : 5
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="AppleMaps" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="RAC-49-sgy" id="QUY-y5-7d8"/>
+                <outlet property="loginButton" destination="k2W-RK-QYa" id="su6-zL-XI4"/>
+                <outlet property="passwordTextField" destination="Xg5-0b-BWM" id="DWj-Xp-xNF"/>
+                <outlet property="userTextField" destination="ARA-Al-OVU" id="GfO-hR-rVX"/>
+                <outlet property="view" destination="iN0-l3-epB" id="fSB-x5-DXz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ARA-Al-OVU">
+                    <rect key="frame" x="40" y="436" width="334" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xg5-0b-BWM">
+                    <rect key="frame" x="40" y="510" width="334" height="34"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2W-RK-QYa">
+                    <rect key="frame" x="177.5" y="584" width="59.5" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Login"/>
+                    <connections>
+                        <action selector="onLoginTap:" destination="-1" eventType="touchUpInside" id="jJC-oe-MSj"/>
+                    </connections>
+                </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="RAC-49-sgy">
+                    <rect key="frame" x="188.5" y="434.5" width="37" height="37"/>
+                </activityIndicatorView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="RAC-49-sgy" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="3YS-pW-yvE"/>
+                <constraint firstItem="Xg5-0b-BWM" firstAttribute="centerX" secondItem="ARA-Al-OVU" secondAttribute="centerX" id="3hi-Fp-8Xu"/>
+                <constraint firstItem="Xg5-0b-BWM" firstAttribute="top" secondItem="ARA-Al-OVU" secondAttribute="bottom" constant="40" id="BR0-Sy-3dP"/>
+                <constraint firstItem="RAC-49-sgy" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="QBD-KP-eYg"/>
+                <constraint firstItem="Xg5-0b-BWM" firstAttribute="leading" secondItem="ARA-Al-OVU" secondAttribute="leading" id="YaD-DZ-79d"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ARA-Al-OVU" secondAttribute="trailing" constant="40" id="aAI-dS-zWq"/>
+                <constraint firstItem="ARA-Al-OVU" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="40" id="cDq-fR-G0B"/>
+                <constraint firstItem="k2W-RK-QYa" firstAttribute="centerX" secondItem="Xg5-0b-BWM" secondAttribute="centerX" id="hAV-yH-mP8"/>
+                <constraint firstItem="ARA-Al-OVU" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="l5V-I0-0L5"/>
+                <constraint firstItem="k2W-RK-QYa" firstAttribute="top" secondItem="Xg5-0b-BWM" secondAttribute="bottom" constant="40" id="m66-ck-ClO"/>
+                <constraint firstItem="Xg5-0b-BWM" firstAttribute="trailing" secondItem="ARA-Al-OVU" secondAttribute="trailing" id="wZg-g5-54D"/>
+                <constraint firstItem="ARA-Al-OVU" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="zew-5H-rl1"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="115"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

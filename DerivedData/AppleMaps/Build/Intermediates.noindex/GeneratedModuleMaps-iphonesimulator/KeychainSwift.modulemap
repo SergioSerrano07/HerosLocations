@@ -1,0 +1,4 @@
+module KeychainSwift {
+header "KeychainSwift-Swift.h"
+export *
+}
