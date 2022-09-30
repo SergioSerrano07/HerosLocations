@@ -9,8 +9,6 @@ import Foundation
 
 
 struct HeroService: ModelDisplayable, Decodable {
-    var longitude: Double
-    var latitude: Double
     let photo: URL
     let name: String
     let favorite: Bool

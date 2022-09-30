@@ -17,7 +17,10 @@
 		AA108CA328E5A7BD003DB813 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108CA228E5A7BD003DB813 /* TableViewCell.swift */; };
 		AA108CE828E5DF0D003DB813 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA108CE728E5DF0D003DB813 /* TableViewCell.xib */; };
 		AA108CEA28E5DFB1003DB813 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108CE928E5DFB1003DB813 /* UIImageViewExtension.swift */; };
+		AA108CEC28E6025E003DB813 /* LocalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108CEB28E6025E003DB813 /* LocalDataModel.swift */; };
 		AA14FA7628E4803600A236AA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA14FA7528E4803600A236AA /* LoginViewController.xib */; };
+		AA4D836828E709C4001439FA /* HeroLocations+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D836528E709C4001439FA /* HeroLocations+CoreDataClass.swift */; };
+		AA4D836928E709C4001439FA /* HeroLocations+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D836628E709C4001439FA /* HeroLocations+CoreDataProperties.swift */; };
 		AA5EC8D828D62F0600F4FA3B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5EC8D728D62F0600F4FA3B /* LoginViewModel.swift */; };
 		AA5EC8DA28D62F1800F4FA3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5EC8D928D62F1800F4FA3B /* LoginViewController.swift */; };
 		AAA3459B28D0F050001DC615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3459A28D0F050001DC615 /* AppDelegate.swift */; };
@@ -71,7 +74,10 @@
 		AA108CA228E5A7BD003DB813 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		AA108CE728E5DF0D003DB813 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = ../../../../../TableViewCell.xib; sourceTree = "<group>"; };
 		AA108CE928E5DFB1003DB813 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		AA108CEB28E6025E003DB813 /* LocalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataModel.swift; sourceTree = "<group>"; };
 		AA14FA7528E4803600A236AA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		AA4D836528E709C4001439FA /* HeroLocations+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroLocations+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AA4D836628E709C4001439FA /* HeroLocations+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroLocations+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AA5EC8D728D62F0600F4FA3B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AA5EC8D928D62F1800F4FA3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA5EC8DD28D6395600F4FA3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -169,6 +175,8 @@
 		AA108C9628E59EE9003DB813 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				AA4D836528E709C4001439FA /* HeroLocations+CoreDataClass.swift */,
+				AA4D836628E709C4001439FA /* HeroLocations+CoreDataProperties.swift */,
 				AA108C9928E5A0EF003DB813 /* Hero+CoreDataClass.swift */,
 				AA108C9B28E5A1FB003DB813 /* HeroServices+CoreDataProperties.swift */,
 			);
@@ -290,6 +298,7 @@
 				AA108C9628E59EE9003DB813 /* CoreData */,
 				AAA345D728D0FE31001DC615 /* HeroService.swift */,
 				AA0C8D1C28DE3A8000E00F56 /* HeroCordinates.swift */,
+				AA108CEB28E6025E003DB813 /* LocalDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -457,8 +466,11 @@
 				AAA3459B28D0F050001DC615 /* AppDelegate.swift in Sources */,
 				AADBC08F28D1C97C007071E2 /* CoreDataManager.swift in Sources */,
 				AAA345D628D0FD08001DC615 /* NetworkModel.swift in Sources */,
+				AA4D836828E709C4001439FA /* HeroLocations+CoreDataClass.swift in Sources */,
+				AA108CEC28E6025E003DB813 /* LocalDataModel.swift in Sources */,
 				AA0C8D1D28DE3A8000E00F56 /* HeroCordinates.swift in Sources */,
 				AA5EC8D828D62F0600F4FA3B /* LoginViewModel.swift in Sources */,
+				AA4D836928E709C4001439FA /* HeroLocations+CoreDataProperties.swift in Sources */,
 				AAECB7C328E46EFA00D866EB /* HeroMKAnnotationView.swift in Sources */,
 				AA108C9C28E5A1FB003DB813 /* HeroServices+CoreDataProperties.swift in Sources */,
 				AAA3459D28D0F050001DC615 /* SceneDelegate.swift in Sources */,

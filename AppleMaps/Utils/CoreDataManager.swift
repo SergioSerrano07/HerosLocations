@@ -11,7 +11,7 @@ import UIKit
 
 class CoreDataManager {
     private lazy var persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "HeroServices")
+        let container = NSPersistentContainer(name: "AppleMaps")
         container.loadPersistentStores { storeDescription, error in
             if let error = error {
                 fatalError("Error: \(error.localizedDescription)")
@@ -33,6 +33,36 @@ class CoreDataManager {
             print("Error getting heroes")
         }
         
+        return []
+    }
+    
+    func fetchHero(id heroId: String) -> HeroServices? {
+        let request = HeroServices.createFetchRequest()
+        let predicate = NSPredicate(format: "id == %@", heroId)
+        request.predicate = predicate
+        request.fetchBatchSize = 1
+        
+        do {
+            let result = try context.fetch(request)
+            return result.first
+        } catch {
+            print("Error getting heroes")
+        }
+        
+        return nil
+    }
+    
+    func fetchLocations(for heroID: String) -> [HeroLocations] {
+        let request = HeroLocations.createFetchRequest()
+        let predicate = NSPredicate(format: "hero.id == %@", heroID)
+        request.predicate = predicate
+        
+        do {
+            let result = try context.fetch(request)
+            return result
+        } catch {
+            print("Error getting locations")
+        }
         return []
     }
     

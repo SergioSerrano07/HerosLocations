@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>01D13E2C-D2DA-4291-8A18-FB2977AD9575</key>
+		<key>037E86AC-4944-48D8-A101-FE79E5761CC3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>01D13E2C-D2DA-4291-8A18-FB2977AD9575.xcactivitylog</string>
+			<string>037E86AC-4944-48D8-A101-FE79E5761CC3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build AppleMaps</string>
 			<key>timeStartedRecording</key>
-			<real>686161384.25240195</real>
+			<real>686249783.43978202</real>
 			<key>timeStoppedRecording</key>
-			<real>686161385.43237305</real>
+			<real>686249784.50936794</real>
 			<key>title</key>
 			<string>Build AppleMaps</string>
 			<key>uniqueIdentifier</key>
-			<string>01D13E2C-D2DA-4291-8A18-FB2977AD9575</string>
+			<string>037E86AC-4944-48D8-A101-FE79E5761CC3</string>
 		</dict>
-		<key>14B7E3A4-79BF-453E-83B0-ECCEE161DC07</key>
+		<key>22E33257-14DC-48AB-A32E-7B0194B5E9E7</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>14B7E3A4-79BF-453E-83B0-ECCEE161DC07.xcactivitylog</string>
+			<string>22E33257-14DC-48AB-A32E-7B0194B5E9E7.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Build AppleMaps</string>
 			<key>timeStartedRecording</key>
-			<real>686160100.18681395</real>
+			<real>686249814.06426597</real>
 			<key>timeStoppedRecording</key>
-			<real>686160100.25226104</real>
+			<real>686249814.10600603</real>
 			<key>title</key>
 			<string>Build AppleMaps</string>
 			<key>uniqueIdentifier</key>
-			<string>14B7E3A4-79BF-453E-83B0-ECCEE161DC07</string>
+			<string>22E33257-14DC-48AB-A32E-7B0194B5E9E7</string>
 		</dict>
-		<key>151DCCEF-6162-4BA6-95AA-BB792C107819</key>
+		<key>448ECF06-5474-46A3-83FD-5FC21C013BF3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>151DCCEF-6162-4BA6-95AA-BB792C107819.xcactivitylog</string>
+			<string>448ECF06-5474-46A3-83FD-5FC21C013BF3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Build AppleMaps</string>
 			<key>timeStartedRecording</key>
-			<real>686160792.35381496</real>
+			<real>686165432.24636805</real>
 			<key>timeStoppedRecording</key>
-			<real>686160792.43146396</real>
+			<real>686165432.30673206</real>
 			<key>title</key>
 			<string>Build AppleMaps</string>
 			<key>uniqueIdentifier</key>
-			<string>151DCCEF-6162-4BA6-95AA-BB792C107819</string>
+			<string>448ECF06-5474-46A3-83FD-5FC21C013BF3</string>
 		</dict>
-		<key>1D809EDA-87D2-4B68-ACE9-41B739BB438A</key>
+		<key>61573C9C-5255-41D9-8A94-B6F8D54CB472</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -117,7 +117,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1D809EDA-87D2-4B68-ACE9-41B739BB438A.xcactivitylog</string>
+			<string>61573C9C-5255-41D9-8A94-B6F8D54CB472.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Build AppleMaps</string>
 			<key>timeStartedRecording</key>
-			<real>686160912.68927205</real>
+			<real>686249893.14353597</real>
 			<key>timeStoppedRecording</key>
-			<real>686160913.31880796</real>
+			<real>686249893.18587303</real>
 			<key>title</key>
 			<string>Build AppleMaps</string>
 			<key>uniqueIdentifier</key>
-			<string>1D809EDA-87D2-4B68-ACE9-41B739BB438A</string>
+			<string>61573C9C-5255-41D9-8A94-B6F8D54CB472</string>
 		</dict>
-		<key>21559A14-D3B0-42C6-A057-39858D141302</key>
+		<key>A9882212-009B-4C27-8ACE-FA657E0350AD</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -151,7 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>21559A14-D3B0-42C6-A057-39858D141302.xcactivitylog</string>
+			<string>A9882212-009B-4C27-8ACE-FA657E0350AD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +168,15 @@
 			<key>signature</key>
 			<string>Build AppleMaps</string>
 			<key>timeStartedRecording</key>
-			<real>686154434.64552104</real>
+			<real>686246196.10292304</real>
 			<key>timeStoppedRecording</key>
-			<real>686154436.87417495</real>
+			<real>686246197.16405702</real>
 			<key>title</key>
 			<string>Build AppleMaps</string>
 			<key>uniqueIdentifier</key>
-			<string>21559A14-D3B0-42C6-A057-39858D141302</string>
+			<string>A9882212-009B-4C27-8ACE-FA657E0350AD</string>
 		</dict>
-		<key>2A382567-12D6-4A28-B7CE-4F37408E052D</key>
+		<key>C0FE7F8A-2DEC-4719-85CB-9A745488A5D8</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -185,41 +185,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2A382567-12D6-4A28-B7CE-4F37408E052D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686138647.74490297</real>
-			<key>timeStoppedRecording</key>
-			<real>686138649.91137195</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>2A382567-12D6-4A28-B7CE-4F37408E052D</string>
-		</dict>
-		<key>3A85A60C-0B2B-4F79-BA4D-6E622404F9E7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>3A85A60C-0B2B-4F79-BA4D-6E622404F9E7.xcactivitylog</string>
+			<string>C0FE7F8A-2DEC-4719-85CB-9A745488A5D8.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -236,15 +202,15 @@
 			<key>signature</key>
 			<string>Build AppleMaps</string>
 			<key>timeStartedRecording</key>
-			<real>686159939.09558499</real>
+			<real>686230627.73528099</real>
 			<key>timeStoppedRecording</key>
-			<real>686159940.44034302</real>
+			<real>686230630.12080503</real>
 			<key>title</key>
 			<string>Build AppleMaps</string>
 			<key>uniqueIdentifier</key>
-			<string>3A85A60C-0B2B-4F79-BA4D-6E622404F9E7</string>
+			<string>C0FE7F8A-2DEC-4719-85CB-9A745488A5D8</string>
 		</dict>
-		<key>4AE925D1-C61C-4524-BDE6-569DC742CE4B</key>
+		<key>F7DAA182-2B4A-48DB-A038-E13B71E820C2</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -253,7 +219,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>4AE925D1-C61C-4524-BDE6-569DC742CE4B.xcactivitylog</string>
+			<string>F7DAA182-2B4A-48DB-A038-E13B71E820C2.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -270,455 +236,13 @@
 			<key>signature</key>
 			<string>Build AppleMaps</string>
 			<key>timeStartedRecording</key>
-			<real>686160650.68465996</real>
+			<real>686249841.08967495</real>
 			<key>timeStoppedRecording</key>
-			<real>686160650.73889506</real>
+			<real>686249842.30709898</real>
 			<key>title</key>
 			<string>Build AppleMaps</string>
 			<key>uniqueIdentifier</key>
-			<string>4AE925D1-C61C-4524-BDE6-569DC742CE4B</string>
-		</dict>
-		<key>4E8A1B1E-F0B5-4A4B-BE02-50A86A2531F6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4E8A1B1E-F0B5-4A4B-BE02-50A86A2531F6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Clean AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686154166.66812897</real>
-			<key>timeStoppedRecording</key>
-			<real>686154166.745875</real>
-			<key>title</key>
-			<string>Clean AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>4E8A1B1E-F0B5-4A4B-BE02-50A86A2531F6</string>
-		</dict>
-		<key>54BD7606-B6C6-4D64-BD02-A7530757509A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>54BD7606-B6C6-4D64-BD02-A7530757509A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686154832.52859104</real>
-			<key>timeStoppedRecording</key>
-			<real>686154832.86597097</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>54BD7606-B6C6-4D64-BD02-A7530757509A</string>
-		</dict>
-		<key>6AF68EC3-B34B-447B-8C7D-2A8B7D4B479A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>6AF68EC3-B34B-447B-8C7D-2A8B7D4B479A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686154252.83491194</real>
-			<key>timeStoppedRecording</key>
-			<real>686154253.44809997</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>6AF68EC3-B34B-447B-8C7D-2A8B7D4B479A</string>
-		</dict>
-		<key>89270F45-3FFE-4D4F-8158-CEA12AC1487C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>89270F45-3FFE-4D4F-8158-CEA12AC1487C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686161073.43062401</real>
-			<key>timeStoppedRecording</key>
-			<real>686161074.13118804</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>89270F45-3FFE-4D4F-8158-CEA12AC1487C</string>
-		</dict>
-		<key>8AF83C5E-4052-4B44-8D40-848094B73BFF</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8AF83C5E-4052-4B44-8D40-848094B73BFF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686079496.513659</real>
-			<key>timeStoppedRecording</key>
-			<real>686079496.75363696</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>8AF83C5E-4052-4B44-8D40-848094B73BFF</string>
-		</dict>
-		<key>A79552B9-97E8-4F00-9634-5A1A5DD6A911</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A79552B9-97E8-4F00-9634-5A1A5DD6A911.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686160019.47546899</real>
-			<key>timeStoppedRecording</key>
-			<real>686160020.44026303</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>A79552B9-97E8-4F00-9634-5A1A5DD6A911</string>
-		</dict>
-		<key>B4144B38-256F-43B1-B51D-D5474D15F3BB</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B4144B38-256F-43B1-B51D-D5474D15F3BB.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686154530.34968901</real>
-			<key>timeStoppedRecording</key>
-			<real>686154531.18158603</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>B4144B38-256F-43B1-B51D-D5474D15F3BB</string>
-		</dict>
-		<key>B86C6BC2-8B23-4437-9782-96DA53A76B65</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B86C6BC2-8B23-4437-9782-96DA53A76B65.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686161353.43768406</real>
-			<key>timeStoppedRecording</key>
-			<real>686161353.92214799</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>B86C6BC2-8B23-4437-9782-96DA53A76B65</string>
-		</dict>
-		<key>B93C8ACC-79B1-41EB-9056-E0C81541F2C6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B93C8ACC-79B1-41EB-9056-E0C81541F2C6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686161326.87326896</real>
-			<key>timeStoppedRecording</key>
-			<real>686161327.68756998</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>B93C8ACC-79B1-41EB-9056-E0C81541F2C6</string>
-		</dict>
-		<key>C1913A41-AC18-4C23-974B-BC8798499188</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C1913A41-AC18-4C23-974B-BC8798499188.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686155146.02669704</real>
-			<key>timeStoppedRecording</key>
-			<real>686155146.65301001</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>C1913A41-AC18-4C23-974B-BC8798499188</string>
-		</dict>
-		<key>E46F0F24-BB11-4B76-8DAB-F2535A3B524C</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E46F0F24-BB11-4B76-8DAB-F2535A3B524C.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686155299.36855197</real>
-			<key>timeStoppedRecording</key>
-			<real>686155299.43087602</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>E46F0F24-BB11-4B76-8DAB-F2535A3B524C</string>
-		</dict>
-		<key>E78221FB-BB91-4070-8432-22EB41686E5B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E78221FB-BB91-4070-8432-22EB41686E5B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686154170.96205401</real>
-			<key>timeStoppedRecording</key>
-			<real>686154171.86992395</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>E78221FB-BB91-4070-8432-22EB41686E5B</string>
-		</dict>
-		<key>F3D20342-513B-4CEC-8E8D-672A2EA8D50D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F3D20342-513B-4CEC-8E8D-672A2EA8D50D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AppleMaps project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AppleMaps</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AppleMaps</string>
-			<key>timeStartedRecording</key>
-			<real>686154121.189798</real>
-			<key>timeStoppedRecording</key>
-			<real>686154123.05852604</real>
-			<key>title</key>
-			<string>Build AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>F3D20342-513B-4CEC-8E8D-672A2EA8D50D</string>
+			<string>F7DAA182-2B4A-48DB-A038-E13B71E820C2</string>
 		</dict>
 	</dict>
 </dict>

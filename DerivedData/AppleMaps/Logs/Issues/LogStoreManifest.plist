@@ -34,7 +34,7 @@
 			<key>uniqueIdentifier</key>
 			<string>24E850A8-F317-4580-8CCD-984770C6CF55</string>
 		</dict>
-		<key>FD3FA23E-FA3D-46A7-84B0-1907E545C9B3</key>
+		<key>6E177477-20FD-4857-81BA-B0CC601B02BF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>FD3FA23E-FA3D-46A7-84B0-1907E545C9B3.xcactivitylog</string>
+			<string>6E177477-20FD-4857-81BA-B0CC601B02BF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>AppleMaps-gogsonacnzfrjtagbbxejsqpqkht</string>
 			<key>timeStartedRecording</key>
-			<real>686161384.82343996</real>
+			<real>686249841.12825406</real>
 			<key>timeStoppedRecording</key>
-			<real>686161385.42803395</real>
+			<real>686249842.30339098</real>
 			<key>title</key>
 			<string>Build target AppleMaps</string>
 			<key>uniqueIdentifier</key>
-			<string>FD3FA23E-FA3D-46A7-84B0-1907E545C9B3</string>
+			<string>6E177477-20FD-4857-81BA-B0CC601B02BF</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

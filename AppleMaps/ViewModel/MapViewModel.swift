@@ -62,7 +62,7 @@ final class MapViewModel {
         for hero in hero {
             let annotations = MKPointAnnotation()
             annotations.title = hero.name
-            annotations.coordinate = CLLocationCoordinate2D(latitude: Double(hero.latitude), longitude: Double(hero.longitude))
+//            annotations.coordinate = CLLocationCoordinate2D(latitude: Double(hero.latitude), longitude: Double(hero.longitude))
             annotationsArray.append(annotations)
         }
         completion(annotationsArray)

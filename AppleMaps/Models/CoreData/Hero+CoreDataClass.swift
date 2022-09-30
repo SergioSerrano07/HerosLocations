@@ -21,22 +21,18 @@ extension HeroServices {
         cdHero.name = hero.name
         cdHero.favorite = hero.favorite
         cdHero.heroDescription = hero.description
-        cdHero.photoUrl = hero.photo
-        cdHero.longitude = hero.longitude
-        cdHero.latitude = hero.latitude
+        cdHero.photoURL = hero.photo
         
         
         return cdHero
     }
     
     var hero: HeroService {
-        HeroService(longitude: self.longitude,
-                    latitude: self.latitude,
-                    photo: self.photoUrl,
+        HeroService(photo: self.photoURL,
                     name: self.name,
                     favorite: self.favorite,
                     id: self.id,
-                    description: self.description)
+                    description: self.heroDescription)
                     
     }
 }

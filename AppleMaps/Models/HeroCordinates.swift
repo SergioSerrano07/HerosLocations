@@ -10,5 +10,5 @@ import Foundation
 struct HeroCordinates: Decodable {
     let latitude: Double?
     let longitude: Double?
-    let id: String?
+    let id: String
 }

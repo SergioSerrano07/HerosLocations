@@ -229,8 +229,35 @@ SWIFT_CLASS("_TtC9AppleMaps11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@protocol MKAnnotation;
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("Entity")
+@interface Entity : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+
+SWIFT_CLASS_NAMED("HeroLocations")
+@interface HeroLocations : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
 @class NSString;
+@class HeroServices;
+
+@interface HeroLocations (SWIFT_EXTENSION(AppleMaps))
+@property (nonatomic, copy) NSString * _Nonnull id;
+@property (nonatomic) double latitude;
+@property (nonatomic) double longitude;
+@property (nonatomic, strong) HeroServices * _Nonnull hero;
+@end
+
+@protocol MKAnnotation;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC9AppleMaps20HeroMKAnnotationView")
@@ -239,8 +266,6 @@ SWIFT_CLASS("_TtC9AppleMaps20HeroMKAnnotationView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSEntityDescription;
-@class NSManagedObjectContext;
 
 SWIFT_CLASS_NAMED("HeroServices")
 @interface HeroServices : NSManagedObject
@@ -249,16 +274,23 @@ SWIFT_CLASS_NAMED("HeroServices")
 
 
 
+
+@interface HeroServices (SWIFT_EXTENSION(AppleMaps))
+- (void)addHeroLocationsObject:(HeroLocations * _Nonnull)value;
+- (void)removeHeroLocationsObject:(HeroLocations * _Nonnull)value;
+- (void)addHeroLocations:(NSSet * _Nonnull)value;
+- (void)removeHeroLocations:(NSSet * _Nonnull)value;
+@end
+
 @class NSURL;
 
 @interface HeroServices (SWIFT_EXTENSION(AppleMaps))
+@property (nonatomic) BOOL favorite;
 @property (nonatomic, copy) NSString * _Nonnull heroDescription;
 @property (nonatomic, copy) NSString * _Nonnull id;
 @property (nonatomic, copy) NSString * _Nonnull name;
-@property (nonatomic) BOOL favorite;
-@property (nonatomic, copy) NSURL * _Nonnull photoUrl;
-@property (nonatomic) double latitude;
-@property (nonatomic) double longitude;
+@property (nonatomic, copy) NSURL * _Nonnull photoURL;
+@property (nonatomic, strong) NSSet * _Nullable location;
 @end
 
 @class UITextField;

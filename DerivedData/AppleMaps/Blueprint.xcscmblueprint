@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B52F6ABE1C9F3257ABC3D34E40D6806E4C51B871",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B407E115AAB6B76CCF911B22A8BD2354697B6A18" : 0,
+    "B52F6ABE1C9F3257ABC3D34E40D6806E4C51B871" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "61D1DD1B-5364-4FEB-9055-5B60549A3785",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B407E115AAB6B76CCF911B22A8BD2354697B6A18" : "AppleMaps\/DerivedData\/AppleMaps\/SourcePackages\/checkouts\/keychain-swift\/",
+    "B52F6ABE1C9F3257ABC3D34E40D6806E4C51B871" : "AppleMaps\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AppleMaps",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AppleMaps.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/unlock\/Desktop\/iOS%20Avanzado%20\/AppleMaps\/DerivedData\/AppleMaps\/SourcePackages\/repositories\/keychain-swift-4905c7d1",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B407E115AAB6B76CCF911B22A8BD2354697B6A18"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:SergioSerrano07\/HerosLocations.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B52F6ABE1C9F3257ABC3D34E40D6806E4C51B871"
+    }
+  ]
+}

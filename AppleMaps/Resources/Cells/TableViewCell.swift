@@ -12,8 +12,6 @@ protocol ModelDisplayable {
     var id: String { get }
     var name: String { get }
     var description: String { get }
-    var longitude: Double { get }
-    var latitude: Double { get }
 }
 
 final class TableViewCell: UITableViewCell {
