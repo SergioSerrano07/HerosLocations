@@ -14,6 +14,8 @@ final class TableViewController: UITableViewController {
     
     let viewModel = TableViewModel()
     
+    private var hero: HeroService?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -61,9 +63,13 @@ final class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let hero = viewModel.content[indexPath.row]
+        guard let locations = viewModel.locationsContent else {
+            return
+        }
+        
         let nextVC = MapViewController()
-        nextVC.set(model: hero)
+        nextVC.hero = hero
+        nextVC.set(model: locations)
         navigationController?.pushViewController(nextVC, animated: true)
     }
     

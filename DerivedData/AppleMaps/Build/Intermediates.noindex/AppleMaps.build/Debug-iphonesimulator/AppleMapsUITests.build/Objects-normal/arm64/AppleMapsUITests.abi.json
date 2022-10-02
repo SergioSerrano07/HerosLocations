@@ -1,0 +1,568 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "AppleMapsUITests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppleMapsUITestsLaunchTests",
+      "printedName": "AppleMapsUITestsLaunchTests",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "runsForEachTargetApplicationUIConfiguration",
+          "printedName": "runsForEachTargetApplicationUIConfiguration",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests(cpy)runsForEachTargetApplicationUIConfiguration",
+          "mangledName": "$s16AppleMapsUITests0abC11LaunchTestsC43runsForEachTargetApplicationUIConfigurationSbvpZ",
+          "moduleName": "AppleMapsUITests",
+          "static": true,
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "runsForEachTargetApplicationUIConfiguration",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests(cm)runsForEachTargetApplicationUIConfiguration",
+              "mangledName": "$s16AppleMapsUITests0abC11LaunchTestsC43runsForEachTargetApplicationUIConfigurationSbvgZ",
+              "moduleName": "AppleMapsUITests",
+              "static": true,
+              "overriding": true,
+              "isOpen": true,
+              "objc_name": "runsForEachTargetApplicationUIConfiguration",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "setUpWithError",
+          "printedName": "setUpWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests(im)setUpWithError:",
+          "mangledName": "$s16AppleMapsUITests0abC11LaunchTestsC14setUpWithErroryyKF",
+          "moduleName": "AppleMapsUITests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setUpWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testLaunch",
+          "printedName": "testLaunch()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests(im)testLaunchAndReturnError:",
+          "mangledName": "$s16AppleMapsUITests0abC11LaunchTestsC04testD0yyKF",
+          "moduleName": "AppleMapsUITests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppleMapsUITestsLaunchTests",
+              "printedName": "AppleMapsUITests.AppleMapsUITestsLaunchTests",
+              "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests(im)initWithInvocation:",
+          "mangledName": "$s16AppleMapsUITests0abC11LaunchTestsC10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "AppleMapsUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppleMapsUITestsLaunchTests",
+              "printedName": "AppleMapsUITests.AppleMapsUITestsLaunchTests",
+              "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests(im)initWithSelector:",
+          "mangledName": "$s16AppleMapsUITests0abC11LaunchTestsC8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "AppleMapsUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppleMapsUITestsLaunchTests",
+              "printedName": "AppleMapsUITests.AppleMapsUITestsLaunchTests",
+              "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests(im)init",
+          "mangledName": "$s16AppleMapsUITests0abC11LaunchTestsCACycfc",
+          "moduleName": "AppleMapsUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITestsLaunchTests",
+      "mangledName": "$s16AppleMapsUITests0abC11LaunchTestsC",
+      "moduleName": "AppleMapsUITests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "AppleMapsUITests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppleMapsUITests",
+      "printedName": "AppleMapsUITests",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "setUpWithError",
+          "printedName": "setUpWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests(im)setUpWithError:",
+          "mangledName": "$s16AppleMapsUITestsAAC14setUpWithErroryyKF",
+          "moduleName": "AppleMapsUITests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setUpWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tearDownWithError",
+          "printedName": "tearDownWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests(im)tearDownWithError:",
+          "mangledName": "$s16AppleMapsUITestsAAC17tearDownWithErroryyKF",
+          "moduleName": "AppleMapsUITests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tearDownWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testExample",
+          "printedName": "testExample()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests(im)testExampleAndReturnError:",
+          "mangledName": "$s16AppleMapsUITestsAAC11testExampleyyKF",
+          "moduleName": "AppleMapsUITests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testLaunchPerformance",
+          "printedName": "testLaunchPerformance()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests(im)testLaunchPerformanceAndReturnError:",
+          "mangledName": "$s16AppleMapsUITestsAAC21testLaunchPerformanceyyKF",
+          "moduleName": "AppleMapsUITests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppleMapsUITests",
+              "printedName": "AppleMapsUITests.AppleMapsUITests",
+              "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests(im)initWithInvocation:",
+          "mangledName": "$s16AppleMapsUITestsAAC10invocationABSo12NSInvocationCSg_tcfc",
+          "moduleName": "AppleMapsUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppleMapsUITests",
+              "printedName": "AppleMapsUITests.AppleMapsUITests",
+              "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests(im)initWithSelector:",
+          "mangledName": "$s16AppleMapsUITestsAAC8selectorAB10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "AppleMapsUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppleMapsUITests",
+              "printedName": "AppleMapsUITests.AppleMapsUITests",
+              "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests(im)init",
+          "mangledName": "$s16AppleMapsUITestsAACABycfc",
+          "moduleName": "AppleMapsUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@AppleMapsUITests@objc(cs)AppleMapsUITests",
+      "mangledName": "$s16AppleMapsUITestsAAC",
+      "moduleName": "AppleMapsUITests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

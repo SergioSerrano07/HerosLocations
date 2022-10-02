@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AA0C8D1D28DE3A8000E00F56 /* HeroCordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0C8D1C28DE3A8000E00F56 /* HeroCordinates.swift */; };
-		AA0C8D2428E08B2A00E00F56 /* KeyChainHelperSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0C8D2328E08B2A00E00F56 /* KeyChainHelperSpy.swift */; };
 		AA108C9528E59C50003DB813 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108C9428E59C50003DB813 /* TableViewModel.swift */; };
 		AA108C9A28E5A0EF003DB813 /* Hero+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108C9928E5A0EF003DB813 /* Hero+CoreDataClass.swift */; };
 		AA108C9C28E5A1FB003DB813 /* HeroServices+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108C9B28E5A1FB003DB813 /* HeroServices+CoreDataProperties.swift */; };
@@ -21,6 +20,16 @@
 		AA14FA7628E4803600A236AA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA14FA7528E4803600A236AA /* LoginViewController.xib */; };
 		AA4D836828E709C4001439FA /* HeroLocations+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D836528E709C4001439FA /* HeroLocations+CoreDataClass.swift */; };
 		AA4D836928E709C4001439FA /* HeroLocations+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D836628E709C4001439FA /* HeroLocations+CoreDataProperties.swift */; };
+		AA4D837A28E9BE14001439FA /* noHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = AA4D837028E9BE13001439FA /* noHeroes.json */; };
+		AA4D837B28E9BE14001439FA /* LoginViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D837128E9BE13001439FA /* LoginViewModelTests.swift */; };
+		AA4D837C28E9BE14001439FA /* LocalDataModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D837228E9BE13001439FA /* LocalDataModelTests.swift */; };
+		AA4D837D28E9BE14001439FA /* heroes.json in Resources */ = {isa = PBXBuildFile; fileRef = AA4D837328E9BE13001439FA /* heroes.json */; };
+		AA4D837E28E9BE14001439FA /* noLocations.json in Resources */ = {isa = PBXBuildFile; fileRef = AA4D837428E9BE13001439FA /* noLocations.json */; };
+		AA4D837F28E9BE14001439FA /* transformations.json in Resources */ = {isa = PBXBuildFile; fileRef = AA4D837528E9BE13001439FA /* transformations.json */; };
+		AA4D838028E9BE14001439FA /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = AA4D837628E9BE13001439FA /* locations.json */; };
+		AA4D838128E9BE14001439FA /* NetworkModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D837728E9BE14001439FA /* NetworkModelTests.swift */; };
+		AA4D838228E9BE14001439FA /* noTransformations.json in Resources */ = {isa = PBXBuildFile; fileRef = AA4D837828E9BE14001439FA /* noTransformations.json */; };
+		AA4D838328E9BE14001439FA /* URLSessionMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D837928E9BE14001439FA /* URLSessionMock.swift */; };
 		AA5EC8D828D62F0600F4FA3B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5EC8D728D62F0600F4FA3B /* LoginViewModel.swift */; };
 		AA5EC8DA28D62F1800F4FA3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5EC8D928D62F1800F4FA3B /* LoginViewController.swift */; };
 		AAA3459B28D0F050001DC615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3459A28D0F050001DC615 /* AppDelegate.swift */; };
@@ -29,7 +38,6 @@
 		AAA345A528D0F050001DC615 /* AppleMaps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAA345A328D0F050001DC615 /* AppleMaps.xcdatamodeld */; };
 		AAA345A728D0F051001DC615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA345A628D0F051001DC615 /* Assets.xcassets */; };
 		AAA345AA28D0F051001DC615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA345A828D0F051001DC615 /* LaunchScreen.storyboard */; };
-		AAA345B528D0F051001DC615 /* AppleMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA345B428D0F051001DC615 /* AppleMapsTests.swift */; };
 		AAA345BF28D0F051001DC615 /* AppleMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA345BE28D0F051001DC615 /* AppleMapsUITests.swift */; };
 		AAA345C128D0F051001DC615 /* AppleMapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA345C028D0F051001DC615 /* AppleMapsUITestsLaunchTests.swift */; };
 		AAA345CF28D0F132001DC615 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA345CE28D0F132001DC615 /* MapViewModel.swift */; };
@@ -41,8 +49,6 @@
 		AAECB7C528E4702400D866EB /* HeroMKAnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAECB7C428E4702400D866EB /* HeroMKAnnotationView.xib */; };
 		AAECB7C828E477EE00D866EB /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AAECB7C728E477EE00D866EB /* KeychainSwift */; };
 		AAECB7CA28E47CCA00D866EB /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAECB7C928E47CCA00D866EB /* MapViewController.xib */; };
-		AAFF2B7528DB7AAC00F2913A /* LoginViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF2B7428DB7AAC00F2913A /* LoginViewModelTest.swift */; };
-		AAFF2B7728DB7BC100F2913A /* NetworkModelSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFF2B7628DB7BC100F2913A /* NetworkModelSpy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +70,6 @@
 
 /* Begin PBXFileReference section */
 		AA0C8D1C28DE3A8000E00F56 /* HeroCordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroCordinates.swift; sourceTree = "<group>"; };
-		AA0C8D2328E08B2A00E00F56 /* KeyChainHelperSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainHelperSpy.swift; sourceTree = "<group>"; };
 		AA0C8D2528E0ECFC00E00F56 /* AppleMaps 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "AppleMaps 2.xcdatamodel"; sourceTree = "<group>"; };
 		AA108C9428E59C50003DB813 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		AA108C9928E5A0EF003DB813 /* Hero+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hero+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -79,6 +84,16 @@
 		AA4D836528E709C4001439FA /* HeroLocations+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroLocations+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AA4D836628E709C4001439FA /* HeroLocations+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroLocations+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AA4D836F28E9A478001439FA /* AppleMaps 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "AppleMaps 3.xcdatamodel"; sourceTree = "<group>"; };
+		AA4D837028E9BE13001439FA /* noHeroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noHeroes.json; sourceTree = "<group>"; };
+		AA4D837128E9BE13001439FA /* LoginViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModelTests.swift; sourceTree = "<group>"; };
+		AA4D837228E9BE13001439FA /* LocalDataModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDataModelTests.swift; sourceTree = "<group>"; };
+		AA4D837328E9BE13001439FA /* heroes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heroes.json; sourceTree = "<group>"; };
+		AA4D837428E9BE13001439FA /* noLocations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noLocations.json; sourceTree = "<group>"; };
+		AA4D837528E9BE13001439FA /* transformations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = transformations.json; sourceTree = "<group>"; };
+		AA4D837628E9BE13001439FA /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		AA4D837728E9BE14001439FA /* NetworkModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkModelTests.swift; sourceTree = "<group>"; };
+		AA4D837828E9BE14001439FA /* noTransformations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = noTransformations.json; sourceTree = "<group>"; };
+		AA4D837928E9BE14001439FA /* URLSessionMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionMock.swift; sourceTree = "<group>"; };
 		AA5EC8D728D62F0600F4FA3B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AA5EC8D928D62F1800F4FA3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA5EC8DD28D6395600F4FA3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,7 +105,6 @@
 		AAA345A628D0F051001DC615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAA345A928D0F051001DC615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAA345B028D0F051001DC615 /* AppleMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAA345B428D0F051001DC615 /* AppleMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsTests.swift; sourceTree = "<group>"; };
 		AAA345BA28D0F051001DC615 /* AppleMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA345BE28D0F051001DC615 /* AppleMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsUITests.swift; sourceTree = "<group>"; };
 		AAA345C028D0F051001DC615 /* AppleMapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -102,8 +116,6 @@
 		AAECB7C228E46EFA00D866EB /* HeroMKAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroMKAnnotationView.swift; sourceTree = "<group>"; };
 		AAECB7C428E4702400D866EB /* HeroMKAnnotationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroMKAnnotationView.xib; sourceTree = "<group>"; };
 		AAECB7C928E47CCA00D866EB /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
-		AAFF2B7428DB7AAC00F2913A /* LoginViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelTest.swift; sourceTree = "<group>"; };
-		AAFF2B7628DB7BC100F2913A /* NetworkModelSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModelSpy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,47 +144,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA0C8D1E28E086BA00E00F56 /* Testing */ = {
-			isa = PBXGroup;
-			children = (
-				AA0C8D2028E086CA00E00F56 /* ViewController */,
-				AA0C8D1F28E086C200E00F56 /* ViewModel */,
-			);
-			path = Testing;
-			sourceTree = "<group>";
-		};
-		AA0C8D1F28E086C200E00F56 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				AAFF2B7428DB7AAC00F2913A /* LoginViewModelTest.swift */,
-				AAA345B428D0F051001DC615 /* AppleMapsTests.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		AA0C8D2028E086CA00E00F56 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		AA0C8D2128E086F900E00F56 /* Spy */ = {
-			isa = PBXGroup;
-			children = (
-				AAFF2B7628DB7BC100F2913A /* NetworkModelSpy.swift */,
-				AA0C8D2328E08B2A00E00F56 /* KeyChainHelperSpy.swift */,
-			);
-			path = Spy;
-			sourceTree = "<group>";
-		};
-		AA0C8D2228E0870300E00F56 /* Mock */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Mock;
-			sourceTree = "<group>";
-		};
 		AA108C9628E59EE9003DB813 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,9 +216,16 @@
 		AAA345B328D0F051001DC615 /* AppleMapsTests */ = {
 			isa = PBXGroup;
 			children = (
-				AA0C8D2228E0870300E00F56 /* Mock */,
-				AA0C8D2128E086F900E00F56 /* Spy */,
-				AA0C8D1E28E086BA00E00F56 /* Testing */,
+				AA4D837328E9BE13001439FA /* heroes.json */,
+				AA4D837228E9BE13001439FA /* LocalDataModelTests.swift */,
+				AA4D837628E9BE13001439FA /* locations.json */,
+				AA4D837128E9BE13001439FA /* LoginViewModelTests.swift */,
+				AA4D837728E9BE14001439FA /* NetworkModelTests.swift */,
+				AA4D837028E9BE13001439FA /* noHeroes.json */,
+				AA4D837428E9BE13001439FA /* noLocations.json */,
+				AA4D837828E9BE14001439FA /* noTransformations.json */,
+				AA4D837528E9BE13001439FA /* transformations.json */,
+				AA4D837928E9BE14001439FA /* URLSessionMock.swift */,
 			);
 			path = AppleMapsTests;
 			sourceTree = "<group>";
@@ -387,6 +365,7 @@
 					};
 					AAA345AF28D0F051001DC615 = {
 						CreatedOnToolsVersion = 13.3.1;
+						LastSwiftMigration = 1330;
 						TestTargetID = AAA3459628D0F050001DC615;
 					};
 					AAA345B928D0F051001DC615 = {
@@ -437,6 +416,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4D837A28E9BE14001439FA /* noHeroes.json in Resources */,
+				AA4D838228E9BE14001439FA /* noTransformations.json in Resources */,
+				AA4D837D28E9BE14001439FA /* heroes.json in Resources */,
+				AA4D838028E9BE14001439FA /* locations.json in Resources */,
+				AA4D837F28E9BE14001439FA /* transformations.json in Resources */,
+				AA4D837E28E9BE14001439FA /* noLocations.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,10 +468,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAFF2B7528DB7AAC00F2913A /* LoginViewModelTest.swift in Sources */,
-				AAA345B528D0F051001DC615 /* AppleMapsTests.swift in Sources */,
-				AA0C8D2428E08B2A00E00F56 /* KeyChainHelperSpy.swift in Sources */,
-				AAFF2B7728DB7BC100F2913A /* NetworkModelSpy.swift in Sources */,
+				AA4D838328E9BE14001439FA /* URLSessionMock.swift in Sources */,
+				AA4D837B28E9BE14001439FA /* LoginViewModelTests.swift in Sources */,
+				AA4D838128E9BE14001439FA /* NetworkModelTests.swift in Sources */,
+				AA4D837C28E9BE14001439FA /* LocalDataModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,14 +688,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergioserrano.AppleMapsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleMaps.app/AppleMaps";
@@ -722,10 +714,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sergioserrano.AppleMapsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

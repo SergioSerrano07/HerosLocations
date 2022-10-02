@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "bd9e1af77ebe3dde41f397dd6f640b5350818be0ec974a5c70b3ac87e2c1f425"
+build_start_time: [1664716211, 208342075]
+build_end_time: [1664716211, 408782958]
+inputs:
+  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMapsTests/LocalDataModelTests.swift": [1664716145, 520473718]
+  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMapsTests/LoginViewModelTests.swift": [1664713588, 0]
+  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMapsTests/NetworkModelTests.swift": [1664714535, 903195858]
+  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMapsTests/URLSessionMock.swift": [1664713588, 0]

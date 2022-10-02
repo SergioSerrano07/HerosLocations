@@ -21,6 +21,24 @@
 					<real>0.38767194747924805</real>
 				</dict>
 			</dict>
+			<key>LocalDataModelTests</key>
+			<dict>
+				<key>testDeleteToken</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0013899803161621094</real>
+				</dict>
+				<key>testGetTokenWhenNoTokenSaved</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00036299228668212891</real>
+				</dict>
+				<key>testSaveToken</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0010640621185302734</real>
+				</dict>
+			</dict>
 			<key>LoginViewModelTest</key>
 			<dict>
 				<key>testLoginServiceTokenSuccess</key>
@@ -42,6 +60,67 @@
 				<dict>
 					<key>mrnet</key>
 					<real>0.014024019241333008</real>
+				</dict>
+			</dict>
+			<key>LoginViewModelTests</key>
+			<dict>
+				<key>testExample</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00027489662170410156</real>
+				</dict>
+				<key>testPerformanceExample</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.26897299289703369</real>
+				</dict>
+			</dict>
+			<key>NetworkModelTests</key>
+			<dict>
+				<key>testGetHeroesSuccess</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0011619329452514648</real>
+				</dict>
+				<key>testGetHerosSuccessWithNoHeroes</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00090098381042480469</real>
+				</dict>
+				<key>testGetLocationsSuccess</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00074899196624755859</real>
+				</dict>
+				<key>testGetLocationsSuccessWithNoTransformations</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00068700313568115234</real>
+				</dict>
+				<key>testLoginFailWithError</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.0015380382537841797</real>
+				</dict>
+				<key>testLoginFailWithErrorCode</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00036799907684326172</real>
+				</dict>
+				<key>testLoginFailWithErrorCodeNil</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00032198429107666016</real>
+				</dict>
+				<key>testLoginFailWithNoData</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00034892559051513672</real>
+				</dict>
+				<key>testLoginSuccessWithMockToken</key>
+				<dict>
+					<key>mrnet</key>
+					<real>0.00036108493804931641</real>
 				</dict>
 			</dict>
 		</dict>

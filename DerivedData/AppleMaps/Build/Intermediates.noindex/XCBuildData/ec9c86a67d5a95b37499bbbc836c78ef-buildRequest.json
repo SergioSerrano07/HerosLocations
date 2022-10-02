@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "5d47dec5adf294d2f4a26447dcb9908595d2c335b182a94984d52f104f491eba"
+    }
+  ],
+  "containerPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Build/Products",
+      "derivedDataPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone12,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "15.4",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "94F9B741-9632-4517-B229-A4A407205315",
+          "TARGET_DEVICE_MODEL" : "iPhone12,1",
+          "TARGET_DEVICE_OS_VERSION" : "15.4",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

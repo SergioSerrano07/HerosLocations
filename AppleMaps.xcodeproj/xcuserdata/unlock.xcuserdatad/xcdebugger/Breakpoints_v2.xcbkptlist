@@ -14,8 +14,8 @@
             filePath = "AppleMaps/ViewModel/TableViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "loadHeroes()"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "AppleMaps/ViewModel/TableViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
             landmarkName = "downloadLocations(for:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "AppleMaps/ViewModel/TableViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "loadHeroes()"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "AppleMaps/ViewModel/TableViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
             landmarkName = "downloadLocations(for:completion:)"
             landmarkType = "7">
          </BreakpointContent>

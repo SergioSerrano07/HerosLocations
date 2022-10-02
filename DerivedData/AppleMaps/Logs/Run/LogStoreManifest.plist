@@ -40,6 +40,40 @@
 			<key>uniqueIdentifier</key>
 			<string>00F77A0C-E8BA-4CB4-9FCE-3E50C8A73CE2</string>
 		</dict>
+		<key>1032B8E3-2400-4EE5-B7E7-0C1635AE8FAD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1032B8E3-2400-4EE5-B7E7-0C1635AE8FAD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppleMaps project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppleMaps</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AppleMaps</string>
+			<key>timeStartedRecording</key>
+			<real>686409529.88042295</real>
+			<key>timeStoppedRecording</key>
+			<real>686409541.07672799</real>
+			<key>title</key>
+			<string>Run AppleMaps</string>
+			<key>uniqueIdentifier</key>
+			<string>1032B8E3-2400-4EE5-B7E7-0C1635AE8FAD</string>
+		</dict>
 		<key>12BA0F71-7E66-4DDD-BCA9-A6F22CD61469</key>
 		<dict>
 			<key>className</key>
@@ -243,6 +277,74 @@
 			<string>Run AppleMaps</string>
 			<key>uniqueIdentifier</key>
 			<string>3744EC50-FA24-4D3E-B7D7-121DD18B05E0</string>
+		</dict>
+		<key>42E87A7F-6349-4AAC-A5CE-A097EEADDBC3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>42E87A7F-6349-4AAC-A5CE-A097EEADDBC3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppleMaps project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppleMaps</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AppleMaps</string>
+			<key>timeStartedRecording</key>
+			<real>686408815.99117196</real>
+			<key>timeStoppedRecording</key>
+			<real>686408945.54538298</real>
+			<key>title</key>
+			<string>Run AppleMaps</string>
+			<key>uniqueIdentifier</key>
+			<string>42E87A7F-6349-4AAC-A5CE-A097EEADDBC3</string>
+		</dict>
+		<key>43EB0DBF-8396-4DB5-B813-88B2AAFA3941</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>43EB0DBF-8396-4DB5-B813-88B2AAFA3941.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AppleMaps project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AppleMaps</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AppleMaps</string>
+			<key>timeStartedRecording</key>
+			<real>686404432.29486704</real>
+			<key>timeStoppedRecording</key>
+			<real>686407335.95905101</real>
+			<key>title</key>
+			<string>Run AppleMaps</string>
+			<key>uniqueIdentifier</key>
+			<string>43EB0DBF-8396-4DB5-B813-88B2AAFA3941</string>
 		</dict>
 		<key>4C42662A-76B7-4CF4-A87B-6339647CF7DF</key>
 		<dict>

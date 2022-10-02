@@ -56,6 +56,42 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/AppleMapsTests.xctest/AppleMapsTests</key>
+		<data>
+		RCRWPXnWBnCXLFNDIysC7+z1yGE=
+		</data>
+		<key>PlugIns/AppleMapsTests.xctest/Info.plist</key>
+		<data>
+		inpY3KYkovsgF3N2/lOEpSeOVRY=
+		</data>
+		<key>PlugIns/AppleMapsTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		hcd73TpwFkTmNXBZxBMSw3CYTGU=
+		</data>
+		<key>PlugIns/AppleMapsTests.xctest/heroes.json</key>
+		<data>
+		w3rGe3bQ6joQ/Jb1FfLWz1TG030=
+		</data>
+		<key>PlugIns/AppleMapsTests.xctest/locations.json</key>
+		<data>
+		RDu+3GHKrelsGaq8WVfADKLzWWs=
+		</data>
+		<key>PlugIns/AppleMapsTests.xctest/noHeroes.json</key>
+		<data>
+		zQ1MwyNGdQQI99T1547JpuW3mg0=
+		</data>
+		<key>PlugIns/AppleMapsTests.xctest/noLocations.json</key>
+		<data>
+		zQ1MwyNGdQQI99T1547JpuW3mg0=
+		</data>
+		<key>PlugIns/AppleMapsTests.xctest/noTransformations.json</key>
+		<data>
+		zQ1MwyNGdQQI99T1547JpuW3mg0=
+		</data>
+		<key>PlugIns/AppleMapsTests.xctest/transformations.json</key>
+		<data>
+		TZcw1NWSiw8y+QkpvL/A5SGzjL0=
+		</data>
 		<key>TableViewCell.nib</key>
 		<data>
 		xOJD5fZYz6qGow30+PP7svG5TDY=
@@ -142,6 +178,69 @@
 			<key>hash2</key>
 			<data>
 			kIQZ95Ywc6gzOc/jMiHt7WwgSoN1VR8qtpfGftMWRs4=
+			</data>
+		</dict>
+		<key>PlugIns/AppleMapsTests.xctest/AppleMapsTests</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l75AC0NRdtdeXbVPcd+CjjhvZrG6ShB3DeIf+1RcEM8=
+			</data>
+		</dict>
+		<key>PlugIns/AppleMapsTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GG8xmKZQzLVlvBcGGoOMsuoYzl6tFPYh8iPws454lf0=
+			</data>
+		</dict>
+		<key>PlugIns/AppleMapsTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VPfK0vT1PzFEqcnypaR/tMd/98Hl/O6zkPVLYGRQPPs=
+			</data>
+		</dict>
+		<key>PlugIns/AppleMapsTests.xctest/heroes.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wnZkan84F+g+T3ooYiWaNfXjwJ3tpP9auATvakqXoDw=
+			</data>
+		</dict>
+		<key>PlugIns/AppleMapsTests.xctest/locations.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NOfGSaV7NrqYCK0V5J/nRG61e50vqnTyIYyR4Dq4I1s=
+			</data>
+		</dict>
+		<key>PlugIns/AppleMapsTests.xctest/noHeroes.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N1F+Xz3GaBn2H1p7uKzhkhKCQV8QVR0t76XD6wmFtXA=
+			</data>
+		</dict>
+		<key>PlugIns/AppleMapsTests.xctest/noLocations.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N1F+Xz3GaBn2H1p7uKzhkhKCQV8QVR0t76XD6wmFtXA=
+			</data>
+		</dict>
+		<key>PlugIns/AppleMapsTests.xctest/noTransformations.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N1F+Xz3GaBn2H1p7uKzhkhKCQV8QVR0t76XD6wmFtXA=
+			</data>
+		</dict>
+		<key>PlugIns/AppleMapsTests.xctest/transformations.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iYURQb/B+okYlkn4P8BPpCfwkim953VJVE2jAoUSxts=
 			</data>
 		</dict>
 		<key>TableViewCell.nib</key>

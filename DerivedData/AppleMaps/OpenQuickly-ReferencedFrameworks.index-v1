@@ -2,17 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<string>in</string>
 	<string>AppleMaps</string>
+	<string>in</string>
 	<string>from</string>
 	<string>MapKit</string>
 	<string>XCTest</string>
 	<string>CoreData</string>
 	<string>Security</string>
 	<string>AppKit</string>
-	<string>UIKit</string>
+	<string>CoreLocation</string>
 	<string>Cocoa</string>
 	<string>KeychainSwift</string>
+	<string>UIKit</string>
 	<string>PackageDescription</string>
 	<string>Foundation</string>
 </array>

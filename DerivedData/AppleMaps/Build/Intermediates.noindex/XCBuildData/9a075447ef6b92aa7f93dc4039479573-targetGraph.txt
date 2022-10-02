@@ -1,0 +1,10 @@
+Target dependency graph (5 targets)
+KeychainSwift in KeychainSwift, no dependencies
+KeychainSwift in KeychainSwift, depends on:
+KeychainSwift in KeychainSwift (explicit)
+AppleMaps in AppleMaps, depends on:
+KeychainSwift in KeychainSwift (explicit)
+AppleMapsTests in AppleMaps, depends on:
+AppleMaps in AppleMaps (explicit)
+AppleMapsUITests in AppleMaps, depends on:
+AppleMaps in AppleMaps (explicit)

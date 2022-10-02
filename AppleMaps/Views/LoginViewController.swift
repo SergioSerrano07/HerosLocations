@@ -51,18 +51,4 @@ class LoginViewController: UIViewController {
         
         viewModel.login(with: userTextField.text ?? "", password: passwordTextField.text ?? "")
     }
-    
-        
-            
-            
-            
-//            if let token = token {
-//                self.viewModel.saveToken(token: token)
-//                DispatchQueue.main.async {
-//                    self.activityIndicator.stopAnimating()
-//                    self.view.isUserInteractionEnabled = true
-//                    self.performSegue(withIdentifier: "goToMap", sender: nil)
-//                }
-//            }
-        
 }

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "b31fd52364ddebb10d77ba7c359969d962a0f5fc733d1fcfb0e970809b5ba580"
+build_start_time: [1664715935, 820381164]
+build_end_time: [1664715937, 997004985]
+inputs:
+  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMapsUITests/AppleMapsUITests.swift": [1663088849, 933117389]
+  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMapsUITests/AppleMapsUITestsLaunchTests.swift": [1663088849, 938544750]

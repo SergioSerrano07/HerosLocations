@@ -14,6 +14,9 @@ final class TableViewModel {
     private var coreDataManager: CoreDataManager
 
     private(set) var content: [HeroService] = []
+    private(set) var locationsContent: [HeroCordinates]? = []
+    
+    var hero: HeroService?
     
     var onError: ((String) -> Void)?
     var onSuccess: (() -> Void)?
@@ -42,7 +45,7 @@ final class TableViewModel {
     func loadHeroes() {
         let cdHeros = coreDataManager.fetchHeros()
         
-        guard let date = LocalDataModel.staticSyncDate(),
+        guard let date = LocalDataModel.getSyncDate(),
               date.addingTimeInterval(1) > Date(),
               !cdHeros.isEmpty else {
             

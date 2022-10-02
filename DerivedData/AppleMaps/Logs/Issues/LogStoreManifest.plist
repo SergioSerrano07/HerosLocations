@@ -6,6 +6,62 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>3AFD5C65-3D73-4DA4-B472-10CB85BB71D6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>3AFD5C65-3D73-4DA4-B472-10CB85BB71D6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>AppleMaps-gogsonacnzfrjtagbbxejsqpqkht</string>
+			<key>timeStartedRecording</key>
+			<real>686409529.61885095</real>
+			<key>timeStoppedRecording</key>
+			<real>686409529.87562704</real>
+			<key>title</key>
+			<string>Build target AppleMaps</string>
+			<key>uniqueIdentifier</key>
+			<string>3AFD5C65-3D73-4DA4-B472-10CB85BB71D6</string>
+		</dict>
+		<key>96CC6376-1C21-49A1-9272-C15E0DA8D9BF</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>96CC6376-1C21-49A1-9272-C15E0DA8D9BF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>AppleMapsTests-gogsonacnzfrjtagbbxejsqpqkht</string>
+			<key>timeStartedRecording</key>
+			<real>686409011.17369998</real>
+			<key>timeStoppedRecording</key>
+			<real>686409011.525931</real>
+			<key>title</key>
+			<string>Build target AppleMapsTests</string>
+			<key>uniqueIdentifier</key>
+			<string>96CC6376-1C21-49A1-9272-C15E0DA8D9BF</string>
+		</dict>
 		<key>BEC7C839-221F-4E0C-A42E-3D347D803701</key>
 		<dict>
 			<key>className</key>
@@ -34,33 +90,33 @@
 			<key>uniqueIdentifier</key>
 			<string>BEC7C839-221F-4E0C-A42E-3D347D803701</string>
 		</dict>
-		<key>EB129D6F-52F8-423F-BC4A-F37806F3BD0B</key>
+		<key>E7EBD28E-8058-405C-8A06-B6C3D7644D04</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
 			<key>fileName</key>
-			<string>EB129D6F-52F8-423F-BC4A-F37806F3BD0B.xcactivitylog</string>
+			<string>E7EBD28E-8058-405C-8A06-B6C3D7644D04.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>AppleMaps-gogsonacnzfrjtagbbxejsqpqkht</string>
+			<string>AppleMapsUITests-gogsonacnzfrjtagbbxejsqpqkht</string>
 			<key>timeStartedRecording</key>
-			<real>686404431.44118595</real>
+			<real>686408756.71772897</real>
 			<key>timeStoppedRecording</key>
-			<real>686404432.28943896</real>
+			<real>686408756.88238597</real>
 			<key>title</key>
-			<string>Build target AppleMaps</string>
+			<string>Build target AppleMapsUITests</string>
 			<key>uniqueIdentifier</key>
-			<string>EB129D6F-52F8-423F-BC4A-F37806F3BD0B</string>
+			<string>E7EBD28E-8058-405C-8A06-B6C3D7644D04</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

@@ -18,38 +18,36 @@ class MapViewController: UIViewController, MKMapViewDelegate {
     
     let viewModel = MapViewModel()
     
-    private var model: ModelDisplayable?
+    private var heroLocations: [HeroCordinates] = []
+    
+    var hero: HeroService?
     
     //MARK: - Cicle of life
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        guard let model = model else {
-            return
+        
+        viewModel.onSuccess = { [weak self] in
+            DispatchQueue.main.async {
+                self?.loadLocations()
+            }
         }
         
-        navigationController?.navigationBar.isHidden = false
-        mapView.delegate = self
+        viewModel.viewDidLoad()
         
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        viewModel.checkLocationsServices()
-        viewModel.viewWillAppear()
-        
+    func set(model: [HeroCordinates]) {
+        self.heroLocations = model
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+    
+    func loadLocations() {
         setupMap()
-        viewModel.getHeroesAnnotations { arrayAnnotations in
+        guard let hero = hero else { return }
+        viewModel.getHeroesAnnotations(name: hero.name, locations: heroLocations) { arrayAnnotations in
             mapView.addAnnotations(arrayAnnotations)
         }
-    }
-    
-    func set(model: HeroService) {
-        self.model = model
     }
 
     //MARK: Configuration
