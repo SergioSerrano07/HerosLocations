@@ -33,10 +33,10 @@ extension HeroServices {
     @NSManaged public func removeFromLocations(_ value: HeroLocations)
     
     @objc(addHeroLocations:)
-    @NSManaged public func addToLocations(_ value: NSSet)
+    @NSManaged public func addToLocations(_ values: NSSet)
     
     @objc(removeHeroLocations:)
-    @NSManaged public func removeFromLocations(_ value: NSSet)
+    @NSManaged public func removeFromLocations(_ values: NSSet)
     
 }
 

@@ -3,8 +3,8 @@
     <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
     <entity name="HeroLocations" representedClassName="HeroLocations" syncable="YES">
         <attribute name="id" attributeType="String"/>
-        <attribute name="latitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
-        <attribute name="longitude" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="latitud" attributeType="String"/>
+        <attribute name="longitud" attributeType="String"/>
         <relationship name="hero" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HeroServices" inverseName="location" inverseEntity="HeroServices"/>
         <fetchIndex name="byPropertyIndex">
             <fetchIndexElement property="hero" type="Binary" order="ascending"/>

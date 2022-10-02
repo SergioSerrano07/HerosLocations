@@ -17,9 +17,9 @@ extension HeroLocations {
     }
 
     @NSManaged public var id: String
-    @NSManaged public var latitude: Double
-    @NSManaged public var longitude: Double
-    @NSManaged public var hero: HeroServices
+    @NSManaged public var latitud: String
+    @NSManaged public var longitud: String
+    @NSManaged public var hero: HeroServices?
 
 }
 

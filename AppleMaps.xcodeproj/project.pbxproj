@@ -78,6 +78,7 @@
 		AA14FA7528E4803600A236AA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		AA4D836528E709C4001439FA /* HeroLocations+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroLocations+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AA4D836628E709C4001439FA /* HeroLocations+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HeroLocations+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AA4D836F28E9A478001439FA /* AppleMaps 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "AppleMaps 3.xcdatamodel"; sourceTree = "<group>"; };
 		AA5EC8D728D62F0600F4FA3B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AA5EC8D928D62F1800F4FA3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA5EC8DD28D6395600F4FA3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -833,6 +834,7 @@
 		AAA345A328D0F050001DC615 /* AppleMaps.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				AA4D836F28E9A478001439FA /* AppleMaps 3.xcdatamodel */,
 				AA0C8D2528E0ECFC00E00F56 /* AppleMaps 2.xcdatamodel */,
 				AAA345A428D0F050001DC615 /* AppleMaps.xcdatamodel */,
 			);

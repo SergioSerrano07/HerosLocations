@@ -95,7 +95,7 @@ final class TableViewModel {
             }
             
             networkModel.token = token
-            networkModel.getLocalizationHero(for: hero) { [weak self] locations, error in
+            networkModel.getLocalizationHero(id: hero.id) { [weak self] locations, error in
                 if let error = error {
                     self?.onError?("Error: \(error.localizedDescription)")
                 } else {

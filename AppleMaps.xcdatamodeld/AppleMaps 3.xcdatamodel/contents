@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="HeroLocations" representedClassName="HeroLocations" syncable="YES">
+        <attribute name="id" attributeType="String"/>
+        <attribute name="latitude" attributeType="String"/>
+        <attribute name="longitude" attributeType="String"/>
+        <relationship name="hero" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HeroServices" inverseName="location" inverseEntity="HeroServices"/>
+        <fetchIndex name="byPropertyIndex">
+            <fetchIndexElement property="hero" type="Binary" order="ascending"/>
+        </fetchIndex>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="HeroServices" representedClassName="HeroServices" syncable="YES">
+        <attribute name="favorite" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="heroDescription" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="photoURL" attributeType="URI"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HeroLocations" inverseName="hero" inverseEntity="HeroLocations"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <elements>
+        <element name="Entity" positionX="-54" positionY="36" width="128" height="29"/>
+        <element name="HeroLocations" positionX="-63" positionY="18" width="128" height="89"/>
+        <element name="HeroServices" positionX="-63" positionY="-18" width="128" height="119"/>
+    </elements>
+</model>

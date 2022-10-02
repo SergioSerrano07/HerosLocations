@@ -97,7 +97,7 @@ final class NetworkModel {
         }
     }
     
-    func getLocalizationHero(for hero: HeroService, completion: @escaping ([HeroCordinates], NetworkError?) -> Void) {
+    func getLocalizationHero(id: String, completion: @escaping ([HeroCordinates], NetworkError?) -> Void) {
         
         let urlString = "https://dragonball.keepcoding.education/api/heros/locations"
         
@@ -112,7 +112,7 @@ final class NetworkModel {
         
         performAuthenticatedNetworkRequest(urlString,
                                            httpMethod: .post,
-                                           httpBody: Body(id: hero.id),
+                                           httpBody: Body(id: id),
                                            requestToken: token) { (result: Result<[HeroCordinates], NetworkError>)  in
             switch result {
             case .success(let success):

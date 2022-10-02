@@ -5661,7 +5661,7 @@
         {
           "kind": "Function",
           "name": "getLocalizationHero",
-          "printedName": "getLocalizationHero(for:completion:)",
+          "printedName": "getLocalizationHero(id:completion:)",
           "children": [
             {
               "kind": "TypeNominal",
@@ -5670,9 +5670,9 @@
             },
             {
               "kind": "TypeNominal",
-              "name": "HeroService",
-              "printedName": "AppleMaps.HeroService",
-              "usr": "s:9AppleMaps11HeroServiceV"
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
             },
             {
               "kind": "TypeFunc",
@@ -5723,8 +5723,8 @@
             }
           ],
           "declKind": "Func",
-          "usr": "s:9AppleMaps12NetworkModelC19getLocalizationHero3for10completionyAA0G7ServiceV_ySayAA0G10CordinatesVG_AA0C5ErrorOSgtctF",
-          "mangledName": "$s9AppleMaps12NetworkModelC19getLocalizationHero3for10completionyAA0G7ServiceV_ySayAA0G10CordinatesVG_AA0C5ErrorOSgtctF",
+          "usr": "s:9AppleMaps12NetworkModelC19getLocalizationHero2id10completionySS_ySayAA0G10CordinatesVG_AA0C5ErrorOSgtctF",
+          "mangledName": "$s9AppleMaps12NetworkModelC19getLocalizationHero2id10completionySS_ySayAA0G10CordinatesVG_AA0C5ErrorOSgtctF",
           "moduleName": "AppleMaps",
           "declAttributes": [
             "Final"
@@ -6206,19 +6206,19 @@
         },
         {
           "kind": "Var",
-          "name": "latitude",
-          "printedName": "latitude",
+          "name": "latitud",
+          "printedName": "latitud",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "Double",
-              "printedName": "Swift.Double",
-              "usr": "s:Sd"
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
             }
           ],
           "declKind": "Var",
-          "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(py)latitude",
-          "mangledName": "$s9AppleMaps13HeroLocationsC8latitudeSdvp",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(py)latitud",
+          "mangledName": "$s9AppleMaps13HeroLocationsC7latitudSSvp",
           "moduleName": "AppleMaps",
           "isOpen": true,
           "declAttributes": [
@@ -6235,14 +6235,14 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "Double",
-                  "printedName": "Swift.Double",
-                  "usr": "s:Sd"
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)latitude",
-              "mangledName": "$s9AppleMaps13HeroLocationsC8latitudeSdvg",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)latitud",
+              "mangledName": "$s9AppleMaps13HeroLocationsC7latitudSSvg",
               "moduleName": "AppleMaps",
               "implicit": true,
               "isOpen": true,
@@ -6264,14 +6264,14 @@
                 },
                 {
                   "kind": "TypeNominal",
-                  "name": "Double",
-                  "printedName": "Swift.Double",
-                  "usr": "s:Sd"
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)setLatitude:",
-              "mangledName": "$s9AppleMaps13HeroLocationsC8latitudeSdvs",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)setLatitud:",
+              "mangledName": "$s9AppleMaps13HeroLocationsC7latitudSSvs",
               "moduleName": "AppleMaps",
               "implicit": true,
               "isOpen": true,
@@ -6285,19 +6285,19 @@
         },
         {
           "kind": "Var",
-          "name": "longitude",
-          "printedName": "longitude",
+          "name": "longitud",
+          "printedName": "longitud",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "Double",
-              "printedName": "Swift.Double",
-              "usr": "s:Sd"
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
             }
           ],
           "declKind": "Var",
-          "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(py)longitude",
-          "mangledName": "$s9AppleMaps13HeroLocationsC9longitudeSdvp",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(py)longitud",
+          "mangledName": "$s9AppleMaps13HeroLocationsC8longitudSSvp",
           "moduleName": "AppleMaps",
           "isOpen": true,
           "declAttributes": [
@@ -6314,14 +6314,14 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "Double",
-                  "printedName": "Swift.Double",
-                  "usr": "s:Sd"
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)longitude",
-              "mangledName": "$s9AppleMaps13HeroLocationsC9longitudeSdvg",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)longitud",
+              "mangledName": "$s9AppleMaps13HeroLocationsC8longitudSSvg",
               "moduleName": "AppleMaps",
               "implicit": true,
               "isOpen": true,
@@ -6343,14 +6343,14 @@
                 },
                 {
                   "kind": "TypeNominal",
-                  "name": "Double",
-                  "printedName": "Swift.Double",
-                  "usr": "s:Sd"
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)setLongitude:",
-              "mangledName": "$s9AppleMaps13HeroLocationsC9longitudeSdvs",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)setLongitud:",
+              "mangledName": "$s9AppleMaps13HeroLocationsC8longitudSSvs",
               "moduleName": "AppleMaps",
               "implicit": true,
               "isOpen": true,
@@ -6369,14 +6369,22 @@
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "HeroServices",
-              "printedName": "AppleMaps.HeroServices",
-              "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+              "name": "Optional",
+              "printedName": "AppleMaps.HeroServices?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HeroServices",
+                  "printedName": "AppleMaps.HeroServices",
+                  "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+                }
+              ],
+              "usr": "s:Sq"
             }
           ],
           "declKind": "Var",
           "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(py)hero",
-          "mangledName": "$s9AppleMaps13HeroLocationsC4heroAA0C8ServicesCvp",
+          "mangledName": "$s9AppleMaps13HeroLocationsC4heroAA0C8ServicesCSgvp",
           "moduleName": "AppleMaps",
           "isOpen": true,
           "declAttributes": [
@@ -6393,14 +6401,22 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "HeroServices",
-                  "printedName": "AppleMaps.HeroServices",
-                  "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+                  "name": "Optional",
+                  "printedName": "AppleMaps.HeroServices?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HeroServices",
+                      "printedName": "AppleMaps.HeroServices",
+                      "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+                    }
+                  ],
+                  "usr": "s:Sq"
                 }
               ],
               "declKind": "Accessor",
               "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)hero",
-              "mangledName": "$s9AppleMaps13HeroLocationsC4heroAA0C8ServicesCvg",
+              "mangledName": "$s9AppleMaps13HeroLocationsC4heroAA0C8ServicesCSgvg",
               "moduleName": "AppleMaps",
               "implicit": true,
               "isOpen": true,
@@ -6422,14 +6438,22 @@
                 },
                 {
                   "kind": "TypeNominal",
-                  "name": "HeroServices",
-                  "printedName": "AppleMaps.HeroServices",
-                  "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+                  "name": "Optional",
+                  "printedName": "AppleMaps.HeroServices?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HeroServices",
+                      "printedName": "AppleMaps.HeroServices",
+                      "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+                    }
+                  ],
+                  "usr": "s:Sq"
                 }
               ],
               "declKind": "Accessor",
               "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)setHero:",
-              "mangledName": "$s9AppleMaps13HeroLocationsC4heroAA0C8ServicesCvs",
+              "mangledName": "$s9AppleMaps13HeroLocationsC4heroAA0C8ServicesCSgvs",
               "moduleName": "AppleMaps",
               "implicit": true,
               "isOpen": true,
@@ -6665,27 +6689,19 @@
       "children": [
         {
           "kind": "Var",
-          "name": "latitude",
-          "printedName": "latitude",
+          "name": "latitud",
+          "printedName": "latitud",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Swift.Double?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Double",
-                  "printedName": "Swift.Double",
-                  "usr": "s:Sd"
-                }
-              ],
-              "usr": "s:Sq"
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
             }
           ],
           "declKind": "Var",
-          "usr": "s:9AppleMaps14HeroCordinatesV8latitudeSdSgvp",
-          "mangledName": "$s9AppleMaps14HeroCordinatesV8latitudeSdSgvp",
+          "usr": "s:9AppleMaps14HeroCordinatesV7latitudSSvp",
+          "mangledName": "$s9AppleMaps14HeroCordinatesV7latitudSSvp",
           "moduleName": "AppleMaps",
           "declAttributes": [
             "HasStorage"
@@ -6701,22 +6717,14 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Swift.Double?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "Double",
-                      "printedName": "Swift.Double",
-                      "usr": "s:Sd"
-                    }
-                  ],
-                  "usr": "s:Sq"
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:9AppleMaps14HeroCordinatesV8latitudeSdSgvg",
-              "mangledName": "$s9AppleMaps14HeroCordinatesV8latitudeSdSgvg",
+              "usr": "s:9AppleMaps14HeroCordinatesV7latitudSSvg",
+              "mangledName": "$s9AppleMaps14HeroCordinatesV7latitudSSvg",
               "moduleName": "AppleMaps",
               "implicit": true,
               "declAttributes": [
@@ -6728,27 +6736,19 @@
         },
         {
           "kind": "Var",
-          "name": "longitude",
-          "printedName": "longitude",
+          "name": "longitud",
+          "printedName": "longitud",
           "children": [
             {
               "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Swift.Double?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Double",
-                  "printedName": "Swift.Double",
-                  "usr": "s:Sd"
-                }
-              ],
-              "usr": "s:Sq"
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
             }
           ],
           "declKind": "Var",
-          "usr": "s:9AppleMaps14HeroCordinatesV9longitudeSdSgvp",
-          "mangledName": "$s9AppleMaps14HeroCordinatesV9longitudeSdSgvp",
+          "usr": "s:9AppleMaps14HeroCordinatesV8longitudSSvp",
+          "mangledName": "$s9AppleMaps14HeroCordinatesV8longitudSSvp",
           "moduleName": "AppleMaps",
           "declAttributes": [
             "HasStorage"
@@ -6764,22 +6764,14 @@
               "children": [
                 {
                   "kind": "TypeNominal",
-                  "name": "Optional",
-                  "printedName": "Swift.Double?",
-                  "children": [
-                    {
-                      "kind": "TypeNominal",
-                      "name": "Double",
-                      "printedName": "Swift.Double",
-                      "usr": "s:Sd"
-                    }
-                  ],
-                  "usr": "s:Sq"
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
                 }
               ],
               "declKind": "Accessor",
-              "usr": "s:9AppleMaps14HeroCordinatesV9longitudeSdSgvg",
-              "mangledName": "$s9AppleMaps14HeroCordinatesV9longitudeSdSgvg",
+              "usr": "s:9AppleMaps14HeroCordinatesV8longitudSSvg",
+              "mangledName": "$s9AppleMaps14HeroCordinatesV8longitudSSvg",
               "moduleName": "AppleMaps",
               "implicit": true,
               "declAttributes": [
@@ -6839,7 +6831,7 @@
         {
           "kind": "Constructor",
           "name": "init",
-          "printedName": "init(latitude:longitude:id:)",
+          "printedName": "init(latitud:longitud:id:)",
           "children": [
             {
               "kind": "TypeNominal",
@@ -6849,31 +6841,15 @@
             },
             {
               "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Swift.Double?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Double",
-                  "printedName": "Swift.Double",
-                  "usr": "s:Sd"
-                }
-              ],
-              "usr": "s:Sq"
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
             },
             {
               "kind": "TypeNominal",
-              "name": "Optional",
-              "printedName": "Swift.Double?",
-              "children": [
-                {
-                  "kind": "TypeNominal",
-                  "name": "Double",
-                  "printedName": "Swift.Double",
-                  "usr": "s:Sd"
-                }
-              ],
-              "usr": "s:Sq"
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
             },
             {
               "kind": "TypeNominal",
@@ -6883,8 +6859,8 @@
             }
           ],
           "declKind": "Constructor",
-          "usr": "s:9AppleMaps14HeroCordinatesV8latitude9longitude2idACSdSg_AGSStcfc",
-          "mangledName": "$s9AppleMaps14HeroCordinatesV8latitude9longitude2idACSdSg_AGSStcfc",
+          "usr": "s:9AppleMaps14HeroCordinatesV7latitud8longitud2idACSS_S2Stcfc",
+          "mangledName": "$s9AppleMaps14HeroCordinatesV7latitud8longitud2idACSS_S2Stcfc",
           "moduleName": "AppleMaps",
           "implicit": true,
           "init_kind": "Designated"

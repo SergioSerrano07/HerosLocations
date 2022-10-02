@@ -252,9 +252,9 @@ SWIFT_CLASS_NAMED("HeroLocations")
 
 @interface HeroLocations (SWIFT_EXTENSION(AppleMaps))
 @property (nonatomic, copy) NSString * _Nonnull id;
-@property (nonatomic) double latitude;
-@property (nonatomic) double longitude;
-@property (nonatomic, strong) HeroServices * _Nonnull hero;
+@property (nonatomic, copy) NSString * _Nonnull latitud;
+@property (nonatomic, copy) NSString * _Nonnull longitud;
+@property (nonatomic, strong) HeroServices * _Nullable hero;
 @end
 
 @protocol MKAnnotation;
@@ -278,8 +278,8 @@ SWIFT_CLASS_NAMED("HeroServices")
 @interface HeroServices (SWIFT_EXTENSION(AppleMaps))
 - (void)addHeroLocationsObject:(HeroLocations * _Nonnull)value;
 - (void)removeHeroLocationsObject:(HeroLocations * _Nonnull)value;
-- (void)addHeroLocations:(NSSet * _Nonnull)value;
-- (void)removeHeroLocations:(NSSet * _Nonnull)value;
+- (void)addHeroLocations:(NSSet * _Nonnull)values;
+- (void)removeHeroLocations:(NSSet * _Nonnull)values;
 @end
 
 @class NSURL;
