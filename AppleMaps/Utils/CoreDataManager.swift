@@ -75,7 +75,8 @@ class CoreDataManager {
     }
     
     func deleteAll() {
-        //Delete objects
+        let cdHeros = fetchHeros()
+        cdHeros.forEach{context.delete($0)}
         saveContext()
     }
 }

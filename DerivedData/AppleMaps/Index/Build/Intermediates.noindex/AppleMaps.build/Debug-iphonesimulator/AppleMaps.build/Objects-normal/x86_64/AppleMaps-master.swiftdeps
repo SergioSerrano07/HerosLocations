@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
 options: "d5ab2e43c8a5b2387c718e6190cd5ae1409ae932a406b0ad6e9a1543b993b3e6"
-build_start_time: [1664716274, 673418998]
-build_end_time: [1664716274, 952095031]
+build_start_time: [1664716963, 193048000]
+build_end_time: [1664716963, 347208023]
 inputs:
   "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/AppDelegate.swift": [1663576443, 401563644]
   "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/Models/CoreData/Hero+CoreDataClass.swift": [1664553396, 99592208]
@@ -21,8 +21,8 @@ inputs:
   "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/ViewModel/LoginViewModel.swift": [1664443859, 844212055]
   "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/ViewModel/MapViewModel.swift": [1664715512, 358113765]
   "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/ViewModel/TableViewModel.swift": [1664716207, 186708450]
-  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/Views/LoginViewController.swift": [1664461730, 343624114]
-  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/Views/MapViewController.swift": [1664715333, 48891544]
+  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/Views/LoginViewController.swift": [1664716729, 538421154]
+  "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/Views/MapViewController.swift": [1664716647, 523758172]
   "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps/Views/TableViewController.swift": [1664715930, 783761978]
   ? "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Index/Build/Intermediates.noindex/AppleMaps.build/Debug-iphonesimulator/AppleMaps.build/DerivedSources/CoreDataGenerated/AppleMaps/AppleMaps+CoreDataModel.swift"
   : [1664710056, 79914569]

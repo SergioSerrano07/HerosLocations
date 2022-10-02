@@ -14,15 +14,15 @@
 		</data>
 		<key>AppleMaps.momd/AppleMaps.mom</key>
 		<data>
-		IgOlvFhuioDjSaA+yko9WqKR71M=
+		I2v3JPRIb+L9W7OXZuMlA79z+yA=
 		</data>
 		<key>AppleMaps.momd/AppleMaps.omo</key>
 		<data>
-		hAkSjRZxjKm+NlskOqyBL2Ob5S0=
+		GGatgRW75Co/TKtraLJIEEn1u0Q=
 		</data>
 		<key>AppleMaps.momd/VersionInfo.plist</key>
 		<data>
-		/uljSr+C61NhYNfdH5yT7yf+gvk=
+		/7MSkb3Z3ptXgmjqM2bNyW5CxLk=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -35,10 +35,6 @@
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
 		U0x8EM0781fCPb62BbZIXKeDlZ4=
-		</data>
-		<key>HeroMKAnnotationView.nib</key>
-		<data>
-		Xe/1drPmqbaLiSTIr+BVjjECeqs=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -121,21 +117,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zfAJbOFpWsvdA2tt1oCL2etholKyqAfeCDikHte3WPg=
+			Gv58eVZQ8O3Vf38lJ3xEf5dj/UpFWhbZAUPkmRhr6VQ=
 			</data>
 		</dict>
 		<key>AppleMaps.momd/AppleMaps.omo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p5XJAw2ZayQz5tLqYUlk0lZZdDHS17U/7TTz1BKeeCM=
+			WFqoPvez/zFzqvlsJLRjL+A5vf8Uq20ECCzU3pBhvvM=
 			</data>
 		</dict>
 		<key>AppleMaps.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kL6lmIRryr1TU+DFUnJyMrHokoMpRY2/jAhyFMb1qbI=
+			Knm/IV+qsaSRR1lbVuqSuEqqILisks8/arJ/EEaRBAw=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -157,13 +153,6 @@
 			<key>hash2</key>
 			<data>
 			cWq7q+iQcmpSoaFGecnyPdKFEPFwRD3slgUmxFADkVs=
-			</data>
-		</dict>
-		<key>HeroMKAnnotationView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			O+ggqm3H+nMRKckzwcGgGw+WtzeYrZuGRE6vHxzVfrA=
 			</data>
 		</dict>
 		<key>LoginViewController.nib</key>

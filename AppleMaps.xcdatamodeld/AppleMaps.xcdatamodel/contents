@@ -21,7 +21,7 @@
         <attribute name="id" attributeType="String"/>
         <attribute name="name" attributeType="String"/>
         <attribute name="photoURL" attributeType="URI"/>
-        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HeroLocations" inverseName="hero" inverseEntity="HeroLocations"/>
+        <relationship name="location" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="HeroLocations" inverseName="hero" inverseEntity="HeroLocations"/>
         <uniquenessConstraints>
             <uniquenessConstraint>
                 <constraint value="id"/>

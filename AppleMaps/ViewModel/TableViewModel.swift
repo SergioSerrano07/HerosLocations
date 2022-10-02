@@ -7,6 +7,7 @@
 
 import Foundation
 import KeychainSwift
+import UIKit
 
 final class TableViewModel {
     private var networkModel: NetworkModel
@@ -15,8 +16,10 @@ final class TableViewModel {
 
     private(set) var content: [HeroService] = []
     private(set) var locationsContent: [HeroCordinates]? = []
+
     
     var hero: HeroService?
+    var heroes: [HeroService] = []
     
     var onError: ((String) -> Void)?
     var onSuccess: (() -> Void)?
@@ -46,23 +49,23 @@ final class TableViewModel {
         let cdHeros = coreDataManager.fetchHeros()
         
         guard let date = LocalDataModel.getSyncDate(),
-              date.addingTimeInterval(1) > Date(),
+              date.addingTimeInterval(84600) > Date(),
               !cdHeros.isEmpty else {
             
             print("Heroes Network Call")
             guard let token = keyChain.get("KCToken") else { return }
             networkModel.token = token
             
-            networkModel.getHeroes { [weak self] heros, error in
+            networkModel.getHeroes { [weak self] heroes, error in
                 
                 if let error = error {
                     self?.onError?("Heroes \(error.localizedDescription)")
                 } else {
-                    self?.save(heroes: heros)
+                    self?.save(heroes: heroes)
                     
                     let group = DispatchGroup()
                     
-                    heros.forEach { hero in
+                    heroes.forEach { hero in
                         group.enter()
                         self?.downloadLocations(for: hero) {
                             group.leave()
@@ -110,7 +113,8 @@ final class TableViewModel {
             completion()
         }
     }
-}
+    }
+
 
 private extension TableViewModel {
     func save(heroes: [HeroService]) {
@@ -126,3 +130,5 @@ private extension TableViewModel {
         coreDataManager.saveContext()
     }
 }
+
+

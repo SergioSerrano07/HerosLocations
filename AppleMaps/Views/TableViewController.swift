@@ -10,16 +10,24 @@ import KeychainSwift
 
 
 
-final class TableViewController: UITableViewController {
+final class TableViewController: UITableViewController, UISearchBarDelegate {
     
     let viewModel = TableViewModel()
     
+    let searchController = UISearchController(searchResultsController: nil)
+    
     private var hero: HeroService?
+    
+    
+    var filtered: [HeroService] = []
+    var isSearching: Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = "Heroes"
+        searchController.searchBar.delegate = self
+        navigationItem.searchController = searchController
         
         navigationController?.navigationBar.isHidden = false
         
@@ -48,7 +56,11 @@ final class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return viewModel.content.count
+        if isSearching {
+            return filtered.count
+        }else{
+            return viewModel.content.count
+        }
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -57,7 +69,16 @@ final class TableViewController: UITableViewController {
             cell.textLabel?.text = "no content"
             return cell
         }
-        cell.set(model: viewModel.content[indexPath.row])
+        
+        if isSearching {
+            
+            cell.set(model: filtered[indexPath.row])
+            
+        }else{
+            
+            cell.set(model: viewModel.content[indexPath.row])
+            
+        }
         
         return cell
     }

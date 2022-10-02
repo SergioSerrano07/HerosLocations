@@ -1,0 +1,1912 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreLocation",
+      "printedName": "CoreLocation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "KeychainSwift",
+      "printedName": "KeychainSwift",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "MapKit",
+      "printedName": "MapKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "MapKit",
+      "printedName": "MapKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "MapKit",
+      "printedName": "MapKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HeroServices",
+      "printedName": "HeroServices",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(entity:insertInto:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HeroServices",
+              "printedName": "AppleMaps.HeroServices",
+              "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSEntityDescription",
+              "printedName": "CoreData.NSEntityDescription",
+              "usr": "c:objc(cs)NSEntityDescription"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CoreData.NSManagedObjectContext?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSManagedObjectContext",
+                  "printedName": "CoreData.NSManagedObjectContext",
+                  "usr": "c:objc(cs)NSManagedObjectContext"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@AppleMaps@objc(cs)HeroServices(im)initWithEntity:insertIntoManagedObjectContext:",
+          "mangledName": "$s9AppleMaps12HeroServicesC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+          "moduleName": "AppleMaps",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "createFetchRequest",
+          "printedName": "createFetchRequest()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSFetchRequest",
+              "printedName": "CoreData.NSFetchRequest<AppleMaps.HeroServices>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HeroServices",
+                  "printedName": "AppleMaps.HeroServices",
+                  "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+                }
+              ],
+              "usr": "c:objc(cs)NSFetchRequest"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppleMaps12HeroServicesC18createFetchRequestSo07NSFetchG0CyACGyFZ",
+          "mangledName": "$s9AppleMaps12HeroServicesC18createFetchRequestSo07NSFetchG0CyACGyFZ",
+          "moduleName": "AppleMaps",
+          "static": true,
+          "declAttributes": [
+            "AccessControl",
+            "NonObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "favorite",
+          "printedName": "favorite",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(py)favorite",
+          "mangledName": "$s9AppleMaps12HeroServicesC8favoriteSbvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)favorite",
+              "mangledName": "$s9AppleMaps12HeroServicesC8favoriteSbvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)setFavorite:",
+              "mangledName": "$s9AppleMaps12HeroServicesC8favoriteSbvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "heroDescription",
+          "printedName": "heroDescription",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(py)heroDescription",
+          "mangledName": "$s9AppleMaps12HeroServicesC15heroDescriptionSSvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)heroDescription",
+              "mangledName": "$s9AppleMaps12HeroServicesC15heroDescriptionSSvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)setHeroDescription:",
+              "mangledName": "$s9AppleMaps12HeroServicesC15heroDescriptionSSvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(py)id",
+          "mangledName": "$s9AppleMaps12HeroServicesC2idSSvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)id",
+              "mangledName": "$s9AppleMaps12HeroServicesC2idSSvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)setId:",
+              "mangledName": "$s9AppleMaps12HeroServicesC2idSSvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "name",
+          "printedName": "name",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(py)name",
+          "mangledName": "$s9AppleMaps12HeroServicesC4nameSSvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)name",
+              "mangledName": "$s9AppleMaps12HeroServicesC4nameSSvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)setName:",
+              "mangledName": "$s9AppleMaps12HeroServicesC4nameSSvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "photoURL",
+          "printedName": "photoURL",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "URL",
+              "printedName": "Foundation.URL",
+              "usr": "s:10Foundation3URLV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(py)photoURL",
+          "mangledName": "$s9AppleMaps12HeroServicesC8photoURL10Foundation0F0Vvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)photoURL",
+              "mangledName": "$s9AppleMaps12HeroServicesC8photoURL10Foundation0F0Vvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)setPhotoURL:",
+              "mangledName": "$s9AppleMaps12HeroServicesC8photoURL10Foundation0F0Vvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "location",
+          "printedName": "location",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSSet?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSSet",
+                  "printedName": "Foundation.NSSet",
+                  "usr": "c:objc(cs)NSSet"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(py)location",
+          "mangledName": "$s9AppleMaps12HeroServicesC8locationSo5NSSetCSgvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.NSSet?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSSet",
+                      "printedName": "Foundation.NSSet",
+                      "usr": "c:objc(cs)NSSet"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)location",
+              "mangledName": "$s9AppleMaps12HeroServicesC8locationSo5NSSetCSgvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.NSSet?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSSet",
+                      "printedName": "Foundation.NSSet",
+                      "usr": "c:objc(cs)NSSet"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)setLocation:",
+              "mangledName": "$s9AppleMaps12HeroServicesC8locationSo5NSSetCSgvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "addToLocations",
+          "printedName": "addToLocations(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "HeroLocations",
+              "printedName": "AppleMaps.HeroLocations",
+              "usr": "c:@M@AppleMaps@objc(cs)HeroLocations"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)addHeroLocationsObject:",
+          "mangledName": "$s9AppleMaps12HeroServicesC14addToLocationsyyAA0cG0CF",
+          "moduleName": "AppleMaps",
+          "objc_name": "addHeroLocationsObject:",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeFromLocations",
+          "printedName": "removeFromLocations(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "HeroLocations",
+              "printedName": "AppleMaps.HeroLocations",
+              "usr": "c:@M@AppleMaps@objc(cs)HeroLocations"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)removeHeroLocationsObject:",
+          "mangledName": "$s9AppleMaps12HeroServicesC19removeFromLocationsyyAA0cG0CF",
+          "moduleName": "AppleMaps",
+          "objc_name": "removeHeroLocationsObject:",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "addToLocations",
+          "printedName": "addToLocations(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSSet",
+              "printedName": "Foundation.NSSet",
+              "usr": "c:objc(cs)NSSet"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)addHeroLocations:",
+          "mangledName": "$s9AppleMaps12HeroServicesC14addToLocationsyySo5NSSetCF",
+          "moduleName": "AppleMaps",
+          "objc_name": "addHeroLocations:",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "removeFromLocations",
+          "printedName": "removeFromLocations(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSSet",
+              "printedName": "Foundation.NSSet",
+              "usr": "c:objc(cs)NSSet"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroServices(im)removeHeroLocations:",
+          "mangledName": "$s9AppleMaps12HeroServicesC19removeFromLocationsyySo5NSSetCF",
+          "moduleName": "AppleMaps",
+          "objc_name": "removeHeroLocations:",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@AppleMaps@objc(cs)HeroServices",
+      "mangledName": "$s9AppleMaps12HeroServicesC",
+      "moduleName": "AppleMaps",
+      "objc_name": "HeroServices",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSManagedObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "CoreData.NSManagedObject",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ObservableObject",
+          "printedName": "ObservableObject",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ObjectWillChangePublisher",
+              "printedName": "ObjectWillChangePublisher",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObservableObjectPublisher",
+                  "printedName": "Combine.ObservableObjectPublisher",
+                  "usr": "s:7Combine25ObservableObjectPublisherC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7Combine16ObservableObjectP",
+          "mangledName": "$s7Combine16ObservableObjectP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "KeychainSwift",
+      "printedName": "KeychainSwift",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "KeychainSwift",
+      "printedName": "KeychainSwift",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HeroLocations",
+      "printedName": "HeroLocations",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(entity:insertInto:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HeroLocations",
+              "printedName": "AppleMaps.HeroLocations",
+              "usr": "c:@M@AppleMaps@objc(cs)HeroLocations"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSEntityDescription",
+              "printedName": "CoreData.NSEntityDescription",
+              "usr": "c:objc(cs)NSEntityDescription"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CoreData.NSManagedObjectContext?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSManagedObjectContext",
+                  "printedName": "CoreData.NSManagedObjectContext",
+                  "usr": "c:objc(cs)NSManagedObjectContext"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@AppleMaps@objc(cs)HeroLocations(im)initWithEntity:insertIntoManagedObjectContext:",
+          "mangledName": "$s9AppleMaps13HeroLocationsC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+          "moduleName": "AppleMaps",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "createFetchRequest",
+          "printedName": "createFetchRequest()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSFetchRequest",
+              "printedName": "CoreData.NSFetchRequest<AppleMaps.HeroLocations>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HeroLocations",
+                  "printedName": "AppleMaps.HeroLocations",
+                  "usr": "c:@M@AppleMaps@objc(cs)HeroLocations"
+                }
+              ],
+              "usr": "c:objc(cs)NSFetchRequest"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppleMaps13HeroLocationsC18createFetchRequestSo07NSFetchG0CyACGyFZ",
+          "mangledName": "$s9AppleMaps13HeroLocationsC18createFetchRequestSo07NSFetchG0CyACGyFZ",
+          "moduleName": "AppleMaps",
+          "static": true,
+          "declAttributes": [
+            "AccessControl",
+            "NonObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "id",
+          "printedName": "id",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(py)id",
+          "mangledName": "$s9AppleMaps13HeroLocationsC2idSSvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)id",
+              "mangledName": "$s9AppleMaps13HeroLocationsC2idSSvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)setId:",
+              "mangledName": "$s9AppleMaps13HeroLocationsC2idSSvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "latitud",
+          "printedName": "latitud",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(py)latitud",
+          "mangledName": "$s9AppleMaps13HeroLocationsC7latitudSSvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)latitud",
+              "mangledName": "$s9AppleMaps13HeroLocationsC7latitudSSvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)setLatitud:",
+              "mangledName": "$s9AppleMaps13HeroLocationsC7latitudSSvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "longitud",
+          "printedName": "longitud",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(py)longitud",
+          "mangledName": "$s9AppleMaps13HeroLocationsC8longitudSSvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)longitud",
+              "mangledName": "$s9AppleMaps13HeroLocationsC8longitudSSvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)setLongitud:",
+              "mangledName": "$s9AppleMaps13HeroLocationsC8longitudSSvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "hero",
+          "printedName": "hero",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "AppleMaps.HeroServices?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HeroServices",
+                  "printedName": "AppleMaps.HeroServices",
+                  "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(py)hero",
+          "mangledName": "$s9AppleMaps13HeroLocationsC4heroAA0C8ServicesCSgvp",
+          "moduleName": "AppleMaps",
+          "declAttributes": [
+            "Dynamic",
+            "AccessControl",
+            "NSManaged",
+            "ObjC"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "AppleMaps.HeroServices?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HeroServices",
+                      "printedName": "AppleMaps.HeroServices",
+                      "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)hero",
+              "mangledName": "$s9AppleMaps13HeroLocationsC4heroAA0C8ServicesCSgvg",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "AppleMaps.HeroServices?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HeroServices",
+                      "printedName": "AppleMaps.HeroServices",
+                      "usr": "c:@M@AppleMaps@objc(cs)HeroServices"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@CM@AppleMaps@objc(cs)HeroLocations(im)setHero:",
+              "mangledName": "$s9AppleMaps13HeroLocationsC4heroAA0C8ServicesCSgvs",
+              "moduleName": "AppleMaps",
+              "implicit": true,
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@AppleMaps@objc(cs)HeroLocations",
+      "mangledName": "$s9AppleMaps13HeroLocationsC",
+      "moduleName": "AppleMaps",
+      "objc_name": "HeroLocations",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSManagedObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "CoreData.NSManagedObject",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ObservableObject",
+          "printedName": "ObservableObject",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ObjectWillChangePublisher",
+              "printedName": "ObjectWillChangePublisher",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObservableObjectPublisher",
+                  "printedName": "Combine.ObservableObjectPublisher",
+                  "usr": "s:7Combine25ObservableObjectPublisherC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7Combine16ObservableObjectP",
+          "mangledName": "$s7Combine16ObservableObjectP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "KeychainSwift",
+      "printedName": "KeychainSwift",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "MapKit",
+      "printedName": "MapKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "KeychainSwift",
+      "printedName": "KeychainSwift",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "KeychainSwift",
+      "printedName": "KeychainSwift",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Entity",
+      "printedName": "Entity",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(entity:insertInto:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Entity",
+              "printedName": "AppleMaps.Entity",
+              "usr": "c:@M@AppleMaps@objc(cs)Entity"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSEntityDescription",
+              "printedName": "CoreData.NSEntityDescription",
+              "usr": "c:objc(cs)NSEntityDescription"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "CoreData.NSManagedObjectContext?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSManagedObjectContext",
+                  "printedName": "CoreData.NSManagedObjectContext",
+                  "usr": "c:objc(cs)NSManagedObjectContext"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@AppleMaps@objc(cs)Entity(im)initWithEntity:insertIntoManagedObjectContext:",
+          "mangledName": "$s9AppleMaps6EntityC6entity10insertIntoACSo19NSEntityDescriptionC_So22NSManagedObjectContextCSgtcfc",
+          "moduleName": "AppleMaps",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithEntity:insertIntoManagedObjectContext:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "fetchRequest",
+          "printedName": "fetchRequest()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NSFetchRequest",
+              "printedName": "CoreData.NSFetchRequest<AppleMaps.Entity>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Entity",
+                  "printedName": "AppleMaps.Entity",
+                  "usr": "c:@M@AppleMaps@objc(cs)Entity"
+                }
+              ],
+              "usr": "c:objc(cs)NSFetchRequest"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9AppleMaps6EntityC12fetchRequestSo07NSFetchE0CyACGyFZ",
+          "mangledName": "$s9AppleMaps6EntityC12fetchRequestSo07NSFetchE0CyACGyFZ",
+          "moduleName": "AppleMaps",
+          "static": true,
+          "declAttributes": [
+            "AccessControl",
+            "NonObjC"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@AppleMaps@objc(cs)Entity",
+      "mangledName": "$s9AppleMaps6EntityC",
+      "moduleName": "AppleMaps",
+      "objc_name": "Entity",
+      "declAttributes": [
+        "AccessControl",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSManagedObject",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "CoreData.NSManagedObject",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Identifiable",
+          "printedName": "Identifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ID",
+              "printedName": "ID",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObjectIdentifier",
+                  "printedName": "Swift.ObjectIdentifier",
+                  "usr": "s:SO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s12IdentifiableP",
+          "mangledName": "$ss12IdentifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ObservableObject",
+          "printedName": "ObservableObject",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ObjectWillChangePublisher",
+              "printedName": "ObjectWillChangePublisher",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ObservableObjectPublisher",
+                  "printedName": "Combine.ObservableObjectPublisher",
+                  "usr": "s:7Combine25ObservableObjectPublisherC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7Combine16ObservableObjectP",
+          "mangledName": "$s7Combine16ObservableObjectP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "AppleMaps",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CoreData",
+      "printedName": "CoreData",
+      "declKind": "Import",
+      "moduleName": "AppleMaps"
+    }
+  ],
+  "json_format_version": 6
+}

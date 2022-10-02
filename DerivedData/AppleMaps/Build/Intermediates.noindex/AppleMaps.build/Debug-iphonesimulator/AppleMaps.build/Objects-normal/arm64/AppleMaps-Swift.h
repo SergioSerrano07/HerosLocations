@@ -257,15 +257,6 @@ SWIFT_CLASS_NAMED("HeroLocations")
 @property (nonatomic, strong) HeroServices * _Nullable hero;
 @end
 
-@protocol MKAnnotation;
-@class NSCoder;
-
-SWIFT_CLASS("_TtC9AppleMaps20HeroMKAnnotationView")
-@interface HeroMKAnnotationView : MKAnnotationView
-- (nonnull instancetype)initWithAnnotation:(id <MKAnnotation> _Nullable)annotation reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 SWIFT_CLASS_NAMED("HeroServices")
 @interface HeroServices : NSManagedObject
@@ -297,6 +288,7 @@ SWIFT_CLASS_NAMED("HeroServices")
 @class UIButton;
 @class UIActivityIndicatorView;
 @class NSBundle;
+@class NSCoder;
 
 SWIFT_CLASS("_TtC9AppleMaps19LoginViewController")
 @interface LoginViewController : UIViewController
@@ -348,7 +340,7 @@ SWIFT_CLASS("_TtC9AppleMaps13TableViewCell")
 @class NSIndexPath;
 
 SWIFT_CLASS("_TtC9AppleMaps19TableViewController")
-@interface TableViewController : UITableViewController
+@interface TableViewController : UITableViewController <UISearchBarDelegate>
 - (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
@@ -357,6 +349,16 @@ SWIFT_CLASS("_TtC9AppleMaps19TableViewController")
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISearchBar;
+
+@interface TableViewController (SWIFT_EXTENSION(AppleMaps))
+- (void)searchBarTextDidBeginEditing:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarTextDidEndEditing:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
 @end
 
 
