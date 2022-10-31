@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "3ee6ac2b7582d8dc99624d881706ebdb462c13b9c497db7d96373b8c9368a492"
+build_start_time: [1667233327, 389803886]
+build_end_time: [1667233327, 590044021]
+inputs:
+  ? "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/SourcePackages/checkouts/keychain-swift/Sources/KeychainSwift.swift"
+  : [1664368744, 343534231]
+  ? "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/SourcePackages/checkouts/keychain-swift/Sources/KeychainSwiftAccessOptions.swift"
+  : [1664368744, 343623876]
+  ? "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/SourcePackages/checkouts/keychain-swift/Sources/TegKeychainConstants.swift"
+  : [1664368744, 343711376]

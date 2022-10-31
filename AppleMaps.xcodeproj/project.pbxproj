@@ -13,7 +13,6 @@
 		AA108C9E28E5A593003DB813 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA108C9D28E5A593003DB813 /* TableViewController.xib */; };
 		AA108CA028E5A5DD003DB813 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108C9F28E5A5DD003DB813 /* TableViewController.swift */; };
 		AA108CA328E5A7BD003DB813 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108CA228E5A7BD003DB813 /* TableViewCell.swift */; };
-		AA108CE828E5DF0D003DB813 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA108CE728E5DF0D003DB813 /* TableViewCell.xib */; };
 		AA108CEA28E5DFB1003DB813 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108CE928E5DFB1003DB813 /* UIImageViewExtension.swift */; };
 		AA108CEC28E6025E003DB813 /* LocalDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA108CEB28E6025E003DB813 /* LocalDataModel.swift */; };
 		AA14FA7628E4803600A236AA /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA14FA7528E4803600A236AA /* LoginViewController.xib */; };
@@ -33,6 +32,7 @@
 		AA4D838828E9F335001439FA /* HeroServices+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D838628E9F335001439FA /* HeroServices+CoreDataClass.swift */; };
 		AA5EC8D828D62F0600F4FA3B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5EC8D728D62F0600F4FA3B /* LoginViewModel.swift */; };
 		AA5EC8DA28D62F1800F4FA3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5EC8D928D62F1800F4FA3B /* LoginViewController.swift */; };
+		AA6271AE29102AED00F6FA1C /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6271AD29102AED00F6FA1C /* TableViewCell.xib */; };
 		AAA3459B28D0F050001DC615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3459A28D0F050001DC615 /* AppDelegate.swift */; };
 		AAA3459D28D0F050001DC615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3459C28D0F050001DC615 /* SceneDelegate.swift */; };
 		AAA3459F28D0F050001DC615 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3459E28D0F050001DC615 /* MapViewController.swift */; };
@@ -75,7 +75,6 @@
 		AA108C9D28E5A593003DB813 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
 		AA108C9F28E5A5DD003DB813 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AA108CA228E5A7BD003DB813 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		AA108CE728E5DF0D003DB813 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = ../../../../../TableViewCell.xib; sourceTree = "<group>"; };
 		AA108CE928E5DFB1003DB813 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		AA108CEB28E6025E003DB813 /* LocalDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataModel.swift; sourceTree = "<group>"; };
 		AA14FA7528E4803600A236AA /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 		AA5EC8D728D62F0600F4FA3B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		AA5EC8D928D62F1800F4FA3B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AA5EC8DD28D6395600F4FA3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6271AD29102AED00F6FA1C /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		AAA3459728D0F050001DC615 /* AppleMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA3459A28D0F050001DC615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAA3459C28D0F050001DC615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -156,8 +156,8 @@
 		AA108CA128E5A7AD003DB813 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				AA6271AD29102AED00F6FA1C /* TableViewCell.xib */,
 				AA108CA228E5A7BD003DB813 /* TableViewCell.swift */,
-				AA108CE728E5DF0D003DB813 /* TableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -392,7 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA108C9E28E5A593003DB813 /* TableViewController.xib in Resources */,
-				AA108CE828E5DF0D003DB813 /* TableViewCell.xib in Resources */,
+				AA6271AE29102AED00F6FA1C /* TableViewCell.xib in Resources */,
 				AAA345AA28D0F051001DC615 /* LaunchScreen.storyboard in Resources */,
 				AA14FA7628E4803600A236AA /* LoginViewController.xib in Resources */,
 				AAA345A728D0F051001DC615 /* Assets.xcassets in Resources */,

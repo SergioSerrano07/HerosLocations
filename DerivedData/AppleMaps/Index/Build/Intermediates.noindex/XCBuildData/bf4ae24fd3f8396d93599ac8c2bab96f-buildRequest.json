@@ -1,0 +1,67 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "5d47dec5adf294d2f4a26447dcb9908595d2c335b182a94984d52f104f491eba"
+    },
+    {
+      "guid" : "5d47dec5adf294d2f4a26447dcb99085acc8da25eb913f0c1cd6be46982bb970"
+    },
+    {
+      "guid" : "5d47dec5adf294d2f4a26447dcb9908585cd779056d228310d5cb1196176cc05"
+    }
+  ],
+  "containerPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/AppleMaps.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.4",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "x86_64",
+        "arm64e",
+        "arm64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Index/Build/Products",
+      "derivedDataPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/unlock/Desktop/iOS Avanzado /AppleMaps/DerivedData/AppleMaps/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

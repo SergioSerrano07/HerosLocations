@@ -2,7 +2,7 @@
 //  Entity+CoreDataProperties.swift
 //  
 //
-//  Created by sergio serrano on 2/10/22.
+//  Created by sergio serrano on 31/10/22.
 //
 //  This file was automatically generated and should not be edited.
 //

@@ -6,35 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>265DF44A-9DBE-467A-82A6-0D5F2A1F7B86</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>265DF44A-9DBE-467A-82A6-0D5F2A1F7B86.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>AppleMaps-gogsonacnzfrjtagbbxejsqpqkht</string>
-			<key>timeStartedRecording</key>
-			<real>686421711.38053596</real>
-			<key>timeStoppedRecording</key>
-			<real>686421712.39634395</real>
-			<key>title</key>
-			<string>Build target AppleMaps</string>
-			<key>uniqueIdentifier</key>
-			<string>265DF44A-9DBE-467A-82A6-0D5F2A1F7B86</string>
-		</dict>
-		<key>4E0CF8FE-2A5C-4E54-82BD-2214DB01050E</key>
+		<key>564D0047-7424-4400-A2F7-16143A3EE16E</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -43,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.target</string>
 			<key>fileName</key>
-			<string>4E0CF8FE-2A5C-4E54-82BD-2214DB01050E.xcactivitylog</string>
+			<string>564D0047-7424-4400-A2F7-16143A3EE16E.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,52 +26,24 @@
 			<key>signature</key>
 			<string>KeychainSwift-fjirnoawrmmkwafcsyieolakktzx</string>
 			<key>timeStartedRecording</key>
-			<real>686418050.37943101</real>
+			<real>688925638.35255396</real>
 			<key>timeStoppedRecording</key>
-			<real>686418050.43810904</real>
+			<real>688925638.70064497</real>
 			<key>title</key>
 			<string>Build target KeychainSwift</string>
 			<key>uniqueIdentifier</key>
-			<string>4E0CF8FE-2A5C-4E54-82BD-2214DB01050E</string>
+			<string>564D0047-7424-4400-A2F7-16143A3EE16E</string>
 		</dict>
-		<key>96CC6376-1C21-49A1-9272-C15E0DA8D9BF</key>
+		<key>A87DDF80-CF48-4F9D-9653-1ABB07A091CB</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
 			<key>documentTypeString</key>
 			<string>&lt;nil&gt;</string>
 			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>96CC6376-1C21-49A1-9272-C15E0DA8D9BF.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>AppleMapsTests-gogsonacnzfrjtagbbxejsqpqkht</string>
-			<key>timeStartedRecording</key>
-			<real>686409011.17369998</real>
-			<key>timeStoppedRecording</key>
-			<real>686409011.525931</real>
-			<key>title</key>
-			<string>Build target AppleMapsTests</string>
-			<key>uniqueIdentifier</key>
-			<string>96CC6376-1C21-49A1-9272-C15E0DA8D9BF</string>
-		</dict>
-		<key>E7EBD28E-8058-405C-8A06-B6C3D7644D04</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
-			<key>fileName</key>
-			<string>E7EBD28E-8058-405C-8A06-B6C3D7644D04.xcactivitylog</string>
+			<string>A87DDF80-CF48-4F9D-9653-1ABB07A091CB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -108,15 +52,15 @@
 				<string>S</string>
 			</dict>
 			<key>signature</key>
-			<string>AppleMapsUITests-gogsonacnzfrjtagbbxejsqpqkht</string>
+			<string>AppleMaps-gogsonacnzfrjtagbbxejsqpqkht</string>
 			<key>timeStartedRecording</key>
-			<real>686408756.71772897</real>
+			<real>688925856.93850005</real>
 			<key>timeStoppedRecording</key>
-			<real>686408756.88238597</real>
+			<real>688925859.792992</real>
 			<key>title</key>
-			<string>Build target AppleMapsUITests</string>
+			<string>Build target AppleMaps</string>
 			<key>uniqueIdentifier</key>
-			<string>E7EBD28E-8058-405C-8A06-B6C3D7644D04</string>
+			<string>A87DDF80-CF48-4F9D-9653-1ABB07A091CB</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>
